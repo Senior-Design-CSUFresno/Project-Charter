@@ -3,18 +3,28 @@
 %ECE 186A - Senior Design
 %
 %This is a template you can use for your Project Charter, though you will need to change a good portion of it for your own needs.
-
 \documentclass[12pt,onecolumn]{IEEEtran}			%Everything is default, except  which is journal, 10pt font, and final draft
 
 %add packages here:
 
-\title{ \hfill  \vspace{2in} \\Draft Project Charter Instructions \vspace{1in} }	%the \vspace is moving the title down from the top of the page
-\author{California State University, Fresno \\
-Electrical and Computer Engineering Department \\
-ECE 186A - Senior Design I \\ 					%I am jamming all of the stuff I want on the title page into the Author spot, I know, this isn't elegant
-Fall 2018 - Dr. Stillmaker \\ 					%Note the \\ line returns to make sure to put each one on a new line
+\title{ \hfill  \vspace{2in} \\Smart Eraser \vspace{0.05in} }	
+
+%the \vspace is moving the title down from the top of the page
+\author{Project Charter \\ \vspace{0.6in}
+\vspace{12pt} 
+
+Heather Libecki - Chris Quesada - Juan Colin \\
+\vspace{5pt}
+Technical Advisor: Dr. Hovannes Kulhandjian	\\				%Note the \\ line returns to make sure to put each one on a new line
 \vspace{12pt} 								%I put in some space to get the due date listed a little lower
-\textbf{Due:} Friday, October 26, 2018 by 10:00 AM to Blackboard \\ 
+Friday, October 26, 2018 \\ 
+\vspace{3.2in}
+ECE 186A - Senior Design I \\ 					%I am jamming all of the stuff I want on the title page into the Author spot, I know, this isn't elegant
+Fall 2018 - Dr. Aaron Stillmaker \\
+\vspace{5pt}
+California State University, Fresno \\
+Electrical and Computer Engineering Department \\ 
+
 \vspace{2in}								%You may need to mess with this space, this space is above the signature lines.
 
 
@@ -28,38 +38,17 @@ Fall 2018 - Dr. Stillmaker \\ 					%Note the \\ line returns to make sure to put
 \maketitle									%This generates the title from the information given above.
 \thispagestyle{empty}						%This removes the page number from the title page.
 \newpage
-
-
- \IEEEPARstart{Y}{ou} 						%This makes the cool looking formatting for the first word.  It isn't required.
- and your team should generate a single PDF document using \LaTeX \hspace{1pt} and the \\ \verb3\documentclass[12pt,onecolumn]{IEEEtran}3.
- You are welcome to use the posted \\ \verb1ProjectCharter.tex1 file posted on Blackboard, and just modify that to add your
- own information, and meet the requirements.
- I don't want to give a definite page limit, but I am expecting this document to be somewhere around fifteen to thirty pages, depending on your number of figures and tables, though making sure to 
- adequately cover all the requested
- material is what matters.  In other words, I expect that at this point you have rather thoroughly thought through your project, and should
- have a lot to say about it.
- 
- Below I list the major parts that should be included.  Keep in mind that you will likely have subsections
- under these sections, which I won't directly specify, but you should logically organize your report. \\
- 
- \textbf{It should contain the following parts:}
- 
-\section*{Title Page}
- Your title page should include your project's name, that it is a project charter, the university name, the department name,
- ECE 186A, Fall 2018, the date, the instructor's name (me), your technical advisor's name, and all of your ECE group member's names.
- After this, you may need to add more space
- to make sure it is only the above mentioned information that was included.
  
  \section*{Revision History}
- You should have a page that explains the revisions.  It should have a version number, who made the changes, when the version was finalized,
- and what were the high level changes made.  At this point you might or might not have multiple versions, if for example your technical
- advisor suggested changes that you had to go back and perform.  This shouldn't be so fine-grained that you log every time you make a slight
- change.  A good rule of thumb is you should have a new version any time the report is given outside of your immediate group, this way
- if you give a version to your technical advisor for example, you can keep straight what version they have.
+	Version 1 - finalized October 25, 2018. Changes made by: Heather Libecki, Chris Quesada, Juan Colin. \\
+	Changes made: the initial rough draft of the Project Charter was created, including the proper sections and figures specified by Dr. Stillmaker.
  
  \section*{Abstract}
- A brief explanation of your project, in about one or two paragraphs, and must be less than one page.
+
+ The Smart Eraser is a tool created with the express purpose of making the lives of teachers easier, by allowing them to utilize valuable class time in a productive way. It aims to assist teachers who write lengthy, involved examples on a whiteboard while lecturing on the material they want their students to understand. The Smart Eraser will erase the information written on the whiteboard at the teacher's will, allowing them to continue lecturing without wasting precious class time on erasing the board between examples. This will allow students to learn in an environment with less interruptions and distractions, resulting in improved overall focus and retention. \par
+ \setlength{\parindent}{2.5ex} The project itself, in the simplest terms, is an automatic whiteboard eraser with smart capabilities. The eraser will be on a tracking system that will allow it to cover the x-y plane of the whiteboard's surface, and it will move based on the instructions given to it by the microcontroller it is connected to. This microcontroller will have 4 push-buttons that will be programmed to do 1 of four activities: erase the board using smart processing, erase the entire board from top to bottom without smart processing, stop the eraser's movement in case of emergency, and reset the eraser’s current process in order to send it back to its stand-by position. A camera will be at a fixed location facing the board to allow the entire whiteboard's image to be recorded. The image recorded will go through an image-processing algorithm, which will accomplish one of two things: it will detect the presence of a person in front of the whiteboard, causing the eraser to stop in its tracks, or it will detect the markings on the board and translate their locations into coordinates. These coordinates will then be processed in an algorithm which will determine the shortest path that needs to be taken in order to erase all the markings. Finally, after all procedures are done, the eraser will return to it's stand-by position.
  
+ \newpage
  \section*{Table of Contents}
  You should have a table of contents, which can be generated by a \verb1\tableofcontents1 command.
  
@@ -69,19 +58,62 @@ Fall 2018 - Dr. Stillmaker \\ 					%Note the \\ line returns to make sure to put
  \section*{List of Tables}
  You should have a list of tables, which can be generated by a \verb1\listoftables1 command.
  
+ \newpage
  \section{Introduction}
-Clearly state your project, and what is the main deliverable.  List your team members, and what their specific responsibilities will
-be in completing the project.  This section should have any details about your team member's strengths, but just very simply what
-their responsibilities are in about a sentence
- (i.e. Student One is responsible for being the project manager, micro-controller communications programming, 
- and design of PCB to interface with components).
- 
- This is where you should list your project purpose and justification.
+ The purpose of the Smart Eraser is to allow class time to be utilized for learning. It will assist teachers who write lengthy, involved examples on a whiteboard while lecturing, by erasing the board in between examples while the teacher continues to lecture. This will allow students to learn in an environment with less interruptions and distractions, which will result in improved overall focus and retention of the information being taught. \par
+\setlength{\parindent}{2.5ex} The Smart Eraser, in the simplest terms, is an automatic whiteboard eraser. The main deliverable of this project will be an eraser which can move left-to-right on a track, and up-and-down on a linear motion system attached to the track. This system will be able to detect where markings are on a whiteboard through the use of a camera and an image-processing program. The camera will send the image of the whiteboard to a microcontroller which will process the image, detect where the markings are, and convert their locations to a coordinate system that the mechanical aspects of the eraser will be able to read. This coordinate system will essentially convert the locations of the markings into rotations of the stepper motors attached to the tracks, and this will allow the eraser to move. The eraser will then find the quickest route to erase all of the markings, using a sorting algorithm, before returning to its stand-by position. Finally, the eraser will be able to detect an obstruction in front of the whiteboard, specifically the presence of a person, through the use of the camera and motion-detection technology. This will check if there is a person moving in front of the whiteboard, and if there is, the result would be an immediate termination of the process the Smart Eraser was carrying out; this is to ensure the safety of those around the Smart Eraser while it is operating. \par
+\setlength{\parindent}{2.5ex} The microcontroller that will be controlling the entire system has four push-buttons which will be utilized in the following way: push-button 0 will erase the board using the smart processing method, push-button 1 will erase the entire board without using the smart processing method, push-button 2 will stop the eraser in the middle of whatever process it was performing until it is pressed again, allowing it to resume the process it was carrying out, or until push-button 3 is pressed, which will reset the system and send the eraser back to its stand-by position. \par
+\setlength{\parindent}{2.5ex} Heather Libecki is responsible for being the project manager of this project. She will be researching the DE1\_SoC microcontroller, its relevant components, the ARM assembly language it uses, and the GPIO pin connections it is capable of. She will also be researching the stepper motors, the drivers needed to operate them, and she will be contributing to the creation of the PCB for the H-bridges. Therefore, she will be in charge of all connections to the DE1\_SoC, as well as the connections between the stepper motors, their H-bridge PCBs and drivers, and the additional power needed to make them work properly. \par
+\setlength{\parindent}{2.5ex} Chris Quesada will be researching the ethernet communication between the DE1\_SoC and the camera, as well as the datasheet for the camera itself. He will also be researching the image processing program, how to implement it using the C programming language, and how this program will be able to run on the DE1\_SoC. He will then research the motion-detection program, as well as the algorithm for finding the quickest route to the markings on the board, with assistance from Heather. Therefore, he will be in charge of all interactions with the camera and its smart processing capabilities. \par
+\setlength{\parindent}{2.5ex} Juan Colin will be researching the SDRAM interface standards in order to save images from the camera to the DE1\_SoC. He will also Be researching the physical mechanical system, its required connections, and the power system that will need to be created in order to allow it to run properly. He will then need to configure the power system so the mobile parts of the project can move the way they are intended to, and he will also be assisting in the creation of the PCBs for the H-bridges that will be connected to the stepper motors. Therefore, he will be in charge of the entire physical mechanical system of the eraser. \par
+\setlength{\parindent}{2.5ex} During the project life cycle, there will also be multiple deliverables that will need to be completed and turned in to Dr. Stillmaker. These deliverables will be worked on by all three members of the team to ensure a consistent flow of information throughout all written documentation.
  
  \section{Project Objectives and Success Criteria}
- Here you should list your project objectives, likely in a bulleted form, which clearly states the objectives accomplished by your project.
- You should also list your success criteria here.  As mentioned in class, make sure you include both ambitious success criteria, as well
- as more easily attainable success criteria.  This is how you will measure how successful you were in your project.
+ The description of the Smart Eraser in the Project Description section of this document specifies what the ideal final product will be, so within this section, the actual objectives of the Smart Eraser will be listed. \\ \par
+ \setlength{\parindent}{2.5ex}  Main Objectives
+ \begin{itemize}
+ \item Create a functioning mechanical system that allows the eraser to erase the entire whiteboard.
+ \item Create a coordinate system based on processed image to move eraser to specific markings.
+ \item Create an algorithm to sort the order in which the markings should erase to ensure the shortest path is taken.
+ \item Create a functioning Smart Eraser that erases detected markings in a timely manner.
+ \item Create an image processing program to detect said markings on the whiteboard.
+ \item Create a motion-detection program to check for people obstructing the whiteboard. \\
+ \end{itemize} \par
+
+\setlength{\parindent}{2.5ex} In this section, the specific criteria that need to be met in order to consider this project a success will be listed. These criteria will help those contributing to the completion of this project to be able to measure the actual success of the final product. There will be simple success criteria listed, as well as more ambitious success criteria that will describe an ideal version of this project, including additional features that could be added if there is a significant amount of extra time after accomplishing the simple success criteria. \\
+
+Simple success criteria
+\begin{itemize}
+\item The tracking system moves the eraser to all parts of the board
+Eraser erases the entire whiteboard with no smart processing (covers entire board)
+\item Image processing program converts abnormal color changes to array
+\begin{itemize}
+\item Array converts to location coordinates of the color changes
+\end{itemize}
+\item Coordinate system, in the form of stepper motor rotations, moves the eraser to a specific part of the board
+\item Camera connects to DE1\_SoC board, image from camera saves to microcontroller SDRAM memory
+\item Image processing program on DE1\_SoC works with camera to process images in real-time
+\item Location of markings found with camera via image processing convert to necessary coordinates for mechanical system to read
+\item Motion-detection program creates TRUE signal to be sent to microcontroller if large obstruction (a person) is in front of whiteboard, returns to FALSE when obstruction gone
+\item TRUE signal from motion-detection program halts the movement of the eraser, resumes the eraser’s process when FALSE signal received
+\item Push-buttons on DE1\_SoC perform specifications, stated in the Introduction section of this project charter, using interrupts \\
+\end{itemize}
+
+Ambitious success criteria
+\begin{itemize}
+\item Visual feedback on DE1\_SoC board’s LEDs, HEX display, or LCD screen on current process being performed by eraser
+\item Phone or tablet application shows a live feed of the whiteboard from the camera
+\begin{itemize}
+\item Application can send specific coordinates to the whiteboard in order to “pick and choose” what section of the board to erase
+\end{itemize}
+\item Attachable spray system applies whiteboard liquid cleaning solution to perform “full clean” of whiteboard
+\begin{itemize}
+\item Timer on DE1\_SoC tells eraser to perform a “full clean” during the night, when no one is using the classroom
+\end{itemize}
+\item Eraser can be raised off of the whiteboard surface and subsequently re-pressed on to the board as needed
+\item Smart Eraser patent
+\end{itemize}
+ 
  
  \section{High-Level Requirements}
  A list of requirements at a high level.  This will include things such as being implementable in 2 semesters, completed within a budget, as well
