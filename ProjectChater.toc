@@ -11,15 +11,11 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-G}}Shortest Path Algorithm}{6}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-H}}Motion-Detection Program}{6}
 \contentsline {section}{\numberline {V}Project Description and Boundaries}{6}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Major Components}{6}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Minor Components}{7}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Some Major Difficulties}{7}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-D}}Technical Advisor Background}{7}
 \contentsline {section}{\numberline {VI}High-Level Risks}{11}
 \contentsline {section}{\numberline {VII}Milestone Schedule}{12}
-\contentsline {section}{\numberline {VIII}Gantt Charts}{14}
-\contentsline {section}{\numberline {IX}Equipment and Budget}{14}
-\contentsline {section}{\numberline {X}Roles of Team Members}{16}
+\contentsline {section}{\numberline {VIII}Gantt Charts}{13}
+\contentsline {section}{\numberline {IX}Equipment and Budget}{15}
+\contentsline {section}{\numberline {X}Roles of Team Members}{15}
 \contentsline {section}{\numberline {XI}Stakeholder List}{16}
 \contentsline {section}{\numberline {XII}Project Approval Requirements}{16}
 \contentsline {section}{\numberline {XIII}Approvals}{17}

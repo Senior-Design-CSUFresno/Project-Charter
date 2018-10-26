@@ -89,7 +89,7 @@ Electrical and Computer Engineering Department \\
  The purpose of the Smart Eraser is to allow class time to be utilized for learning. It will assist teachers who write lengthy, involved examples on a whiteboard while lecturing, by erasing the board in between examples while the teacher continues to lecture. This will allow students to learn in an environment with less interruptions and distractions, which will result in improved overall focus and retention of the information being taught. \par
 \setlength{\parindent}{2.5ex} The Smart Eraser, in the simplest terms, is an automatic whiteboard eraser. The main deliverable of this project will be an eraser which can move left-to-right on a track, and up-and-down on a linear motion system attached to the track. This system will be able to detect where markings are on a whiteboard through the use of a camera and an image-processing program. The camera will send the image of the whiteboard to a microcontroller which will process the image, detect where the markings are, and convert their locations to a coordinate system that the mechanical aspects of the eraser will be able to read. This coordinate system will essentially convert the locations of the markings into rotations of the stepper motors attached to the tracks, and this will allow the eraser to move. The eraser will then find the quickest route to erase all of the markings, using a sorting algorithm, before returning to its stand-by position. Finally, the eraser will be able to detect an obstruction in front of the whiteboard, specifically the presence of a person, through the use of the camera and motion-detection technology. This will check if there is a person moving in front of the whiteboard, and if there is, the result would be an immediate termination of the process the Smart Eraser was carrying out; this is to ensure the safety of those around the Smart Eraser while it is operating. The figure below shows the rough layout of the Smart Eraser, and the numbered arrows are explained below it.
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[max size={\textwidth}{\textheight}]{"Layout".png}
 	\caption{A rough layout of the final product}
@@ -168,6 +168,7 @@ The high-level requirements associated with the completion of this project are o
 \item Be completed with the outlined budget
 \item Be implementable within 2 semesters
 \item Be complex enough to warrant the title ``senior design project''
+\item Produce a complete Project Charter outlining the various project information, figures, and tables
 \item Have significant, roughly equal portions of the project be completed by each team member
 \item Utilize material learned in core and technical elective classes throughout our college careers
 \item Produce a deliverable that can be presented in the Senior Project Presentation Day event usually held in the Satellite Student Union building on campus
@@ -268,55 +269,58 @@ Not much research has been looked into for this aspect of the project as it is o
 \end{itemize}
  
 \section{Project Description and Boundaries}
-Describe your project in detail in this section.  List out all of the major components, as well as all of the minor components underneath that.
-Explain all the major difficulties with the project.  
-List who your technical faculty advisor is, what their area of expertise is, and how
-you will use that expertise in your project.
+*Detailed project description here* \\
+The following lists contain the major and minor components to be used in this project. \\
 
-\subsection{Major Components}
-\begin{enumerate}
-	\item DE1\_SoC development board
+Major Components
+\begin{itemize}
+	\item DE1\_SoC Development Board
 	\item Camera
-	\item Stepper motors
-	\item Stepper motor drivers
-	\item Linear Motion system (x \& y direction)
+	\item Stepper Motors
+	\item Stepper Motor Drivers
+	\item Linear Motion System (x \& y direction)
 	\item Eraser
 	\item Whiteboard
-	\item PCB's
-\end{enumerate}
-\subsection{Minor Components}
-\begin{enumerate}
-	\item Various wire connections
-	\item CAT-6 cable
-	\item timing belt
-	\item timing belt pulley flange
-	\item Stepper motor mounting brackets
-	\item screws
-	\item screw drivers
-	\item drill
-\end{enumerate}
+	\item PCB's \\
+\end{itemize}
 
-\subsection{Some Major Difficulties}
-There are a few different major difficult areas that will take up a majority of the development phase of the project. The first difficulty to overcome is establishing a working connection between the camera and the DE1\_SoC board. This needs to be done through the ethernet communication protocol standard IEEE 802.3-2018 for Ethernet. Having had no experience in this yet there will be quite the learning curve in getting it to work properly.\par
+Minor Components
+\begin{itemize}
+	\item Various Wire Connections
+	\item CAT-6 Aable
+	\item Timing Belt
+	\item Timing Belt Pulley Flange
+	\item Stepper Motor Mounting Brackets
+	\item Screws
+	\item Screw Drivers
+	\item Drill \\
+\end{itemize} \par 
+
+\setlength{\parindent}{2.5ex} There are a few different major difficult areas that will take up a majority of the development phase of the project. The first difficulty to overcome is establishing a working connection between the camera and the DE1\_SoC board. This needs to be done through the ethernet communication protocol standard IEEE 802.3-2018 for Ethernet. Having had no experience in this yet there will be quite the learning curve in getting it to work properly.\par
 \setlength{\parindent}{2.5ex}
 Once an Ethernet connection is established, the next major difficulty will be to perform image processing on the images being sent from the camera. This processing will be accomplished by using the ARM IHI 0042F Procedure Call standard for the ARM architecture in the altera monitor program using the C language.The program needs to analyze the data in order to detect markings within the image and store the pixel locations of these markings in an array to be processed by the Dijkstra algorithm to generate a shortest path between all markings that were detected. This path will be the path that the eraser will take when erasing all the markings.\par
 \setlength{\parindent}{2.5ex}
-The last major obstacle will be to translate the derived shortest path from the Dijkstra algorithm to stepper motor rotations. Along with this, the degree of rotation of the stepper motor will need to be developed so that it is equivalent to the length of one pixel on the image grid.
+The last major obstacle will be to translate the derived shortest path from the Dijkstra algorithm to stepper motor rotations. Along with this, the degree of rotation of the stepper motor will need to be developed so that it is equivalent to the length of one pixel on the image grid. \\
 
-\subsection{Technical Advisor Background}	
-The technical advisor for this project is Dr. Hovannes Kulhandjian, who specializes in digital signal processing, and wireless communications and networking. He will contribute advice and information pertaining to the etherney connectivity of the camera to the image processing microcontroller. Dr. Kulhandjian was the original mind behind the idea of this project as well. Because of this, he will also be contributing more specifications and features to the project as its completion progresses. 
+\textit{Technical Advisor Background} \par	
+\setlength{\parindent}{2.5ex} The technical advisor for this project is Dr. Hovannes Kulhandjian, who specializes in digital signal processing, and wireless communications and networking. He will contribute advice and information pertaining to the etherney connectivity of the camera to the image processing microcontroller. Dr. Kulhandjian was the original mind behind the idea of this project as well. Because of this, he will also be contributing more specifications and features to the project as its completion progresses. \\ \par
+
+\setlength{\parindent}{2.5ex} The following figures will be used to implement and complete the Smart Eraser.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.95]{"System block diagram".png}}
+	\caption{Block diagram of main system components}
+	\label{fig:BD1}
+\end{figure}
+
+*The description of Fig. 2 and the labeling of each block goes here*
+
 \begin{figure}[H]
 	\centering
 	{\includegraphics[max size={\textwidth}{\textheight}]{"Smart Eraser Diagrams".png}}
 	\caption{Flow Chart of the Smart Eraser System}
 	\label{fig:FC1}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}]{"System block diagram".png}}
-	\caption{Block diagram of main system components}
-	\label{fig:BD1}
 \end{figure}
 
 \begin{figure}[H]
@@ -432,8 +436,6 @@ The following tables show the milestone schedule for the Smart Eraser project ov
 		\hline
 		Chris Q. & 11/15-11/25/18 & Test initial information found on image processing program.\\
 		\hline
-		\multicolumn{1}{|c|}{\textbf{Member Assign.}} & \multicolumn{1}{|c|}{\textbf{Start-End Date}} & \multicolumn{1}{|c|}{\textbf{Description}} \\
-		\hline
 		Heather L. & 11/15-11/25/18 & Test the microcontroller after researching the ports needed for the \\
 		& & project.\\
 		\hline
@@ -449,6 +451,16 @@ The following tables show the milestone schedule for the Smart Eraser project ov
 		All & 12/13-12/14/18 & 
 		Present Project Charter to Senior Design class, professor, and \\
 		& & academic advisor.\\
+		\hline
+\end{tabular} 
+\caption{Senior Design Semester 1 - Research Phase.}
+\label{table:3}
+\end{table}
+
+\begin{table} [H]	
+	\normalsize
+	\centering
+	\begin{tabular}{|l|l|l|}
 		\hline
 		\multicolumn{1}{|c|}{\textbf{Member Assign.}} & \multicolumn{1}{|c|}{\textbf{Start-End Date}} & \multicolumn{1}{|c|}{\textbf{Description}} \\
 		\hline
@@ -490,16 +502,17 @@ The following tables show the milestone schedule for the Smart Eraser project ov
 	\caption{Senior Design Semester 2 - Implementation Phase.}
 	\label{table:3}
 \end{table}
+
 \section{Gantt Charts}
 The following figures show the GANTT chart schedules over the next two semesters. These list the tasks to be completed, who is in charge of what task, and the time duration the task is expected to take.
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[max size={\textwidth}{\textheight}]{"GANTT chart 186A 1".png}
 	\caption{GANTT chart for Senior Design Semester 1 - Research Phase}
 	\label{fig:GANTT186A}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	{\includegraphics[max size={\textwidth}{\textheight}]{"GANTT chart 186B".png}}
 	\caption{GANTT chart for Senior Design Semester 2 - Implementation Phase}
@@ -567,8 +580,6 @@ Along with the components listed in the budget, the following resources will als
 	\end{itemize}
 \end{itemize}
 
-\pagebreak
-
 \section{Roles of Team Members}
  Heather Libecki will be project manager of the Smart Eraser project. She has experience with programming the specific board (the DE1\_SoC) that will be used in this project, as well as connecting physical devices to it and controlling them via the GPIO ports. This project will be dependent on translating data from the camera into information that the microcontroller will be able to process, and her previous experience with the board plus her ability to learn and adapt quickly will help in that implementation. She is adept at solving problems, debugging and error detection, and technical writing, which will be an integral part in the completion of this project. A solid understanding of the microcontroller full capabilities will need to be further ascertained, as well as how the coordinate system will work in conjunction with the stepper motors, which will be connected to the DE1\_SoC. \par
  \setlength{\parindent}{5ex}
@@ -589,8 +600,21 @@ Along with the components listed in the budget, the following resources will als
  \end{enumerate}
  
  \section{Project Approval Requirements}
- 
- \pagebreak
+ The following list details the requirements that must be met in order for the Smart Eraser to be approved by the various stakeholders in the project.
+ \begin{itemize}
+ 	\item All requirements listed in the High-level requirements section of this project charter, which state that the project must:
+ 	\begin{itemize}
+ 		\item Be completed with the outlined budget
+ 		\item Be implementable within 2 semesters
+ 		\item Be complex enough to warrant the title ``senior design project''
+ 		\item Produce a complete Project Charter outlining the various project information, figures, and tables
+ 		\item Have significant, roughly equal portions of the project be completed by each team member
+ 		\item Utilize material learned in core and technical elective classes throughout our college careers
+ 		\item Produce a deliverable that can be presented in the Senior Project Presentation Day event usually held in the Satellite Student Union building on campus
+ 		\item Be able to be scaled to a bigger surface than the prototype
+ 	\end{itemize}
+ 	\item Any additional requirements given by DPS Telecom if they become a sponsor of the project
+ \end{itemize}
 
 \section{Approvals}
 \setlength{\parindent}{15ex}

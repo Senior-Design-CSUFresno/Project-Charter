@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  26 OCT 2018 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  26 OCT 2018 01:40
 entering extended mode
 **./ProjectChater.tex
 (ProjectChater.tex
@@ -315,6 +315,9 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 ))
 (ProjectChater.aux
 
+LaTeX Warning: Label `table:3' multiply defined.
+
+
 LaTeX Warning: Label `fig:GANTT186A' multiply defined.
 
 )
@@ -415,11 +418,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@lof=\write4
 \openout4 = `ProjectChater.lof'.
 
- (ProjectChater.lot [2])
+ (ProjectChater.lot)
 \tf@lot=\write5
 \openout5 = `ProjectChater.lot'.
 
- [3] [4]
+ [2] [3] [4]
 <"Layout".png, id=16, 374.90062pt x 269.20575pt>
 File: "Layout".png Graphic file (type png)
 <use "Layout".png>
@@ -451,147 +454,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
 
-Overfull \hbox (10.0393pt too wide) in paragraph at lines 191--192
+Overfull \hbox (10.0393pt too wide) in paragraph at lines 192--193
 []\T1/ptm/m/n/12 Strengths: elec-tri-cal sys-tems, cir-cuitry de-sign, prob-lem
  solv-ing, power sys-tems, pub-lic speak-ing/relations 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[5] [6]
-<"Smart Eraser Diagrams".png, id=38, 612.93994pt x 512.21362pt>
-File: "Smart Eraser Diagrams".png Graphic file (type png)
-<use "Smart Eraser Diagrams".png>
-Package pdftex.def Info: "Smart Eraser Diagrams".png  used on input line 310.
-(pdftex.def)             Requested size: 612.93843pt x 512.21237pt.
- [7]
-<"System block diagram".png, id=42, 382.12762pt x 294.04857pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+
+ []
+
+<"System block diagram".png, id=38, 382.12762pt x 294.04857pt>
 File: "System block diagram".png Graphic file (type png)
 <use "System block diagram".png>
-Package pdftex.def Info: "System block diagram".png  used on input line 317.
+Package pdftex.def Info: "System block diagram".png  used on input line 312.
 (pdftex.def)             Requested size: 382.12668pt x 294.04785pt.
- [8 <./Smart Eraser Diagrams.png>]
-<"GPIO".png, id=46, 367.3725pt x 456.70625pt>
+<"Smart Eraser Diagrams".png, id=39, 612.93994pt x 512.21362pt>
+File: "Smart Eraser Diagrams".png Graphic file (type png)
+<use "Smart Eraser Diagrams".png>
+Package pdftex.def Info: "Smart Eraser Diagrams".png  used on input line 321.
+(pdftex.def)             Requested size: 612.93843pt x 512.21237pt.
+[7 <./System block diagram.png>]
+<"GPIO".png, id=43, 367.3725pt x 456.70625pt>
 File: "GPIO".png Graphic file (type png)
 <use "GPIO".png>
-Package pdftex.def Info: "GPIO".png  used on input line 324.
+Package pdftex.def Info: "GPIO".png  used on input line 328.
 (pdftex.def)             Requested size: 367.37158pt x 456.70512pt.
+ [8 <./Smart Eraser Diagrams.png>]
 <"Ethernet".png, id=47, 741.972pt x 371.4678pt>
 File: "Ethernet".png Graphic file (type png)
 <use "Ethernet".png>
-Package pdftex.def Info: "Ethernet".png  used on input line 331.
+Package pdftex.def Info: "Ethernet".png  used on input line 335.
 (pdftex.def)             Requested size: 741.97018pt x 371.46689pt.
- [9 <./System block diagram.png> <./GPIO.png>]
-<"stepper motor".png, id=52, 630.55576pt x 445.06274pt>
+<"stepper motor".png, id=48, 630.55576pt x 445.06274pt>
 File: "stepper motor".png Graphic file (type png)
 <use "stepper motor".png>
-Package pdftex.def Info: "stepper motor".png  used on input line 338.
+Package pdftex.def Info: "stepper motor".png  used on input line 342.
 (pdftex.def)             Requested size: 630.55421pt x 445.06165pt.
+ [9 <./GPIO.png> <./Ethernet.png>]
 <"Stepper motor driver".png, id=54, 453.49425pt x 356.532pt>
 File: "Stepper motor driver".png Graphic file (type png)
 <use "Stepper motor driver".png>
-Package pdftex.def Info: "Stepper motor driver".png  used on input line 345.
+Package pdftex.def Info: "Stepper motor driver".png  used on input line 349.
 (pdftex.def)             Requested size: 453.49313pt x 356.53111pt.
- [10 <./Ethernet.png> <./stepper motor.png>]
+ [10 <./stepper motor.png>]
 <"stepper motor driver set current".png, id=59, 448.67625pt x 151.767pt>
 File: "stepper motor driver set current".png Graphic file (type png)
 <use "stepper motor driver set current".png>
 Package pdftex.def Info: "stepper motor driver set current".png  used on input 
-line 352.
+line 356.
 (pdftex.def)             Requested size: 448.67516pt x 151.76662pt.
  [11 <./Stepper motor driver.png> <./stepper motor driver set current.png>]
-Overfull \hbox (39.99149pt too wide) in paragraph at lines 381--490
+Overfull \hbox (32.39539pt too wide) in paragraph at lines 385--456
+ [][] 
+ []
+
+
+Overfull \hbox (39.99149pt too wide) in paragraph at lines 463--502
  [][] 
  []
 
 [12]
-Overfull \vbox (50.39896pt too high) has occurred while \output is active []
-
-
-[13]
-<"GANTT chart 186A 1".png, id=71, 754.4988pt x 452.77155pt>
+<"GANTT chart 186A 1".png, id=68, 754.4988pt x 452.77155pt>
 File: "GANTT chart 186A 1".png Graphic file (type png)
 <use "GANTT chart 186A 1".png>
-Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 497.
+Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 510.
 (pdftex.def)             Requested size: 754.49695pt x 452.77043pt.
-<"GANTT chart 186B".png, id=72, 614.65636pt x 794.97pt>
+<"GANTT chart 186B".png, id=69, 614.65636pt x 794.97pt>
 File: "GANTT chart 186B".png Graphic file (type png)
 <use "GANTT chart 186B".png>
-Package pdftex.def Info: "GANTT chart 186B".png  used on input line 504.
+Package pdftex.def Info: "GANTT chart 186B".png  used on input line 517.
 (pdftex.def)             Requested size: 614.65486pt x 794.96806pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (8.57742pt too wide) in paragraph at lines 515--550
+ [13 <./GANTT chart 186A 1.png>]
+Overfull \hbox (8.57742pt too wide) in paragraph at lines 528--563
  [][] 
  []
 
-[14 <./GANTT chart 186A 1.png>] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+[14 <./GANTT chart 186B.png>] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--586
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
 
  []
 
-[16] (ProjectChater.bbl) [17] [18 <./GANTT chart 186B.png>] (ProjectChater.aux)
+[16] (ProjectChater.bbl) [17] (ProjectChater.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -599,19 +623,19 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5197 strings out of 493312
  85232 string characters out of 3138899
- 162245 words of memory out of 3000000
+ 162246 words of memory out of 3000000
  8640 multiletter control sequences out of 15000+200000
  98704 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,9n,77p,1556b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,9n,77p,1556b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on ProjectChater.pdf (22 pages, 779480 bytes).
+Output written on ProjectChater.pdf (21 pages, 779653 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
