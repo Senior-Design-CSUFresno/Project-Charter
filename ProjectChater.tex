@@ -31,7 +31,7 @@
 \usepackage{float}
 \usepackage{caption} 
 \usepackage[export]{adjustbox}
-\usepackage{titlesec}
+
 %add packages here:
 
 \title{ \hfill  \vspace{2in} \\Smart Eraser \vspace{0.05in} }	
@@ -65,7 +65,14 @@ Electrical and Computer Engineering Department \\
 \maketitle									%This generates the title from the information given above.
 \thispagestyle{empty}						%This removes the page number from the title page.
 \newpage
+\thispagestyle{empty}
+\tableofcontents
 
+\listoffigures
+
+\listoftables
+
+\newpage
 \thispagestyle{empty} 
  \section*{Revision History}
 	Version 1 - finalized October 25, 2018. Changes made by: Heather Libecki, Chris Quesada, Juan Colin. \\
@@ -77,18 +84,30 @@ Electrical and Computer Engineering Department \\
  \setlength{\parindent}{2.5ex} The project itself, in the simplest terms, is an automatic whiteboard eraser with smart capabilities. The eraser will be on a tracking system that will allow it to cover the x-y plane of the whiteboard's surface, and it will move based on the instructions given to it by the microcontroller it is connected to. This microcontroller will have 4 push-buttons that will be programmed to do 1 of four activities: erase the board using smart processing, erase the entire board from top to bottom without smart processing, stop the eraser's movement in case of emergency, and reset the eraser’s current process in order to send it back to its stand-by position. A camera will be at a fixed location facing the board to allow the entire whiteboard's image to be recorded. The image recorded will go through an image-processing algorithm, which will accomplish one of two things: it will detect the presence of a person in front of the whiteboard, causing the eraser to stop in its tracks, or it will detect the markings on the board and translate their locations into coordinates. These coordinates will then be processed in an algorithm which will determine the shortest path that needs to be taken in order to erase all the markings. Finally, after all procedures are done, the eraser will return to it's stand-by position.
  
 \newpage
-\thispagestyle{empty}
-\tableofcontents
- 
-\listoffigures
- 
-\listoftables
- 
-\newpage
 \setcounter{page}{1}
  \section{Introduction}
  The purpose of the Smart Eraser is to allow class time to be utilized for learning. It will assist teachers who write lengthy, involved examples on a whiteboard while lecturing, by erasing the board in between examples while the teacher continues to lecture. This will allow students to learn in an environment with less interruptions and distractions, which will result in improved overall focus and retention of the information being taught. \par
-\setlength{\parindent}{2.5ex} The Smart Eraser, in the simplest terms, is an automatic whiteboard eraser. The main deliverable of this project will be an eraser which can move left-to-right on a track, and up-and-down on a linear motion system attached to the track. This system will be able to detect where markings are on a whiteboard through the use of a camera and an image-processing program. The camera will send the image of the whiteboard to a microcontroller which will process the image, detect where the markings are, and convert their locations to a coordinate system that the mechanical aspects of the eraser will be able to read. This coordinate system will essentially convert the locations of the markings into rotations of the stepper motors attached to the tracks, and this will allow the eraser to move. The eraser will then find the quickest route to erase all of the markings, using a sorting algorithm, before returning to its stand-by position. Finally, the eraser will be able to detect an obstruction in front of the whiteboard, specifically the presence of a person, through the use of the camera and motion-detection technology. This will check if there is a person moving in front of the whiteboard, and if there is, the result would be an immediate termination of the process the Smart Eraser was carrying out; this is to ensure the safety of those around the Smart Eraser while it is operating. \par
+\setlength{\parindent}{2.5ex} The Smart Eraser, in the simplest terms, is an automatic whiteboard eraser. The main deliverable of this project will be an eraser which can move left-to-right on a track, and up-and-down on a linear motion system attached to the track. This system will be able to detect where markings are on a whiteboard through the use of a camera and an image-processing program. The camera will send the image of the whiteboard to a microcontroller which will process the image, detect where the markings are, and convert their locations to a coordinate system that the mechanical aspects of the eraser will be able to read. This coordinate system will essentially convert the locations of the markings into rotations of the stepper motors attached to the tracks, and this will allow the eraser to move. The eraser will then find the quickest route to erase all of the markings, using a sorting algorithm, before returning to its stand-by position. Finally, the eraser will be able to detect an obstruction in front of the whiteboard, specifically the presence of a person, through the use of the camera and motion-detection technology. This will check if there is a person moving in front of the whiteboard, and if there is, the result would be an immediate termination of the process the Smart Eraser was carrying out; this is to ensure the safety of those around the Smart Eraser while it is operating. The figure below shows the rough layout of the Smart Eraser, and the numbered arrows are explained below it.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[max size={\textwidth}{\textheight}]{"Layout".png}
+	\caption{A rough layout of the final product}
+	\label{fig:GANTT186A}
+\end{figure}
+
+\begin{enumerate}
+	\item The linear motion system with the attached eraser. This will allow the eraser to move in the y-axis direction.
+	\item The tracking system attached above and below the whiteboard. This will allow the eraser to move in the x-axis direction.
+	\item The text that will be erased. The image of this text will be seen through the camera, and the text's location will be determined through the use of image-processing software within the DE1\_SoC microcontroller.
+	\item The DE1\_SoC microcontroller, which will contain the image-processing program, the information on how to move the stepper motors, and the motion-detection program.
+	\item The wires connecting the DE1\_SoC board to the stepper motors.
+	\item This arrow represents the flow of data from the camera that will be mounted across from the board, to the microcontroller for processing.
+	\item The camera that will be connected to the DE1\_SoC board through an Ethernet cable.
+	\item The stepper motors (as well as the PCB that will be made for their H-Bridge connections). \\
+\end{enumerate} \par
+
+
 \setlength{\parindent}{2.5ex} The microcontroller that will be controlling the entire system has four push-buttons which will be utilized in the following way: push-button 0 will erase the board using the smart processing method, push-button 1 will erase the entire board without using the smart processing method, push-button 2 will stop the eraser in the middle of whatever process it was performing until it is pressed again, allowing it to resume the process it was carrying out, or until push-button 3 is pressed, which will reset the system and send the eraser back to its stand-by position. \par
 \setlength{\parindent}{2.5ex} Heather Libecki is responsible for being the project manager of this project. She will be researching the DE1\_SoC microcontroller, its relevant components, the ARM assembly language it uses, and the GPIO pin connections it is capable of. She will also be researching the stepper motors, the drivers needed to operate them, and she will be contributing to the creation of the PCB for the H-bridges. Therefore, she will be in charge of all connections to the DE1\_SoC, as well as the connections between the stepper motors, their H-bridge PCBs and drivers, and the additional power needed to make them work properly. \par
 \setlength{\parindent}{2.5ex} Chris Quesada will be researching the ethernet communication between the DE1\_SoC and the camera, as well as the datasheet for the camera itself. He will also be researching the image processing program, how to implement it using the C programming language, and how this program will be able to run on the DE1\_SoC. He will then research the motion-detection program, as well as the algorithm for finding the quickest route to the markings on the board, with assistance from Heather. Therefore, he will be in charge of all interactions with the camera and its smart processing capabilities. \par
@@ -203,6 +222,7 @@ The following list outlines the relevant courses and the material that will be u
 	\end{itemize}
 \end{itemize}
 
+More extensive research has also been done on specific parts of the project needed to allow the project to work as intended, and they are listed below.
 
 \subsection{Camera Ethernet Connectivity and Data Transfer}
 After further research, the original idea of connecting and powering the camera over an Ethernet connection needed to be modified a bit. In order for the camera to be powered through Ethernet, the connection needed to provide 48V to the camera. Since the DE1\_SoC can only supply a maximum of 5V to any external device, the camera will now be powered through the included 12V 1A power adapter. 
@@ -215,12 +235,37 @@ Through team collaboration, it was decided that each stepper motor rotation woul
 \subsection{Stepper Motor System Design}
 The stepper motors themselves will have attachable components to a pulley system, which will move the components on the board. In order to move the stepper motors, specific drivers will need to be attached to them through an H-bridge. This H-bridge will be designed on a PCB in order to minimize odd connections and spaghetti wires in the final product.
 \subsection{Microcontroller Involvement}
-The pushbuttons will be used to enable different functions of the system and use the HEX 7-seg displays as visual feedback for which actions is be carried out. The microcontroller will be the central hub where all components of the system interact.  
+The push-buttons will be used to enable different functions of the system and use the HEX 7-seg displays as visual feedback for which actions is be carried out. The microcontroller will be the central hub where all components of the system interact.  
 \subsection{Shortest Path Algorithm}
-In order to find the shortest path between all marks detected by the image processing program, Dijkstras algorithm will be applied to the array containing the translated image. This translated image will be contained in an array that represents the detected marks from the board. The algorithm will then start at the top left most mark and traverse the array to find the shortes path between all marks in the array.
+In order to find the shortest path between all marks detected by the image processing program, Dijkstra's algorithm will be applied to the array containing the translated image. This translated image will be contained in an array that represents the detected marks from the board. The algorithm will then start at the top left most mark and traverse the array to find the shortest path between all marks in the array.
 \subsection{Motion-Detection Program}
-Not much research has been looked into for this aspect of the project as it is one of the last items on the GANTT chart. It is assumed that some sort of image processing algorithm will be needed to detect rapid changes in pixels. More research will need to be done.
+Not much research has been looked into for this aspect of the project as it is one of the last items on the GANTT chart. It is assumed that some sort of image processing algorithm will be needed to detect rapid changes in pixels. More research will need to be done. \\
 
+\textit{Standards} \par
+\vspace{2pt}
+\setlength{\parindent}{2.5ex} The standards listed below will be followed while completing this project.
+\begin{itemize}
+	\item IEEE 802.3-2018 - IEEE Standard for Ethernet 
+	\begin{itemize}
+		\item Applies to the Ethernet connection we will be using
+	\end{itemize}
+	\item IEEE 1233-1996/Cor a-1998 - IEEE Guide for Developing System Requirements Specifications
+	\begin{itemize}
+		\item Applies to the development of our project
+	\end{itemize}	
+	\item ARM IHI 0042F Procedure Call Standard for the ARM Architecture
+	\begin{itemize}
+		\item Applies to the assembly language we will be using to code our project
+	\end{itemize}
+	\item IEEE Editorial Style Manual
+	\begin{itemize}
+		\item Standards to follow when writing this Project Charter and any other reports that will be written for this project
+	\end{itemize}
+	\item NEMA Standards Publication ICS 16 Motion/Position Control Motors, Controls, and Feedback Devices
+	\begin{itemize}
+		\item Applies to the stepper motors we will be using and their operation
+	\end{itemize}
+\end{itemize}
  
 \section{Project Description and Boundaries}
 Describe your project in detail in this section.  List out all of the major components, as well as all of the minor components underneath that.
@@ -380,7 +425,7 @@ your project development safe.
 \section{Gantt Charts}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[max size={\textwidth}{\textheight}]{"GANTT chart 186A 1".png}]
+	\includegraphics[max size={\textwidth}{\textheight}]{"GANTT chart 186A 1".png}
 	\caption{GANTT chart for semester 1}
 	\label{fig:GANTT186A}
 \end{figure}
@@ -462,11 +507,9 @@ your project development safe.
  \section{Project Approval Requirements}
  
  \pagebreak
- \titlespacing*{\section}
- {0pt}{5.5ex plus 1ex minus .2ex}{4.3ex plus .2ex}
- \section{Approvals}
- 
- 
+
+\section{Approvals}
+\setlength{\parindent}{15ex}
 	\begin{flushleft}
 	Signature: \hrulefill
 	
