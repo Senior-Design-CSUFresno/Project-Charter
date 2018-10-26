@@ -279,9 +279,22 @@ of the names of the connections, the size of the busses, etc.  Those with progra
 should have outlines of flowcharts for the programs that will be used in your project.
 
 \section{High-Level Risks}
-What are the risks associated with your project?  For most, there are power systems you must be concerned about,
-or moving parts, or a number of other possibilities.  List what these are, and how you are addressing keeping
-your project development safe.
+The following list details the high-level risks of this project, and what will be done as a precaution against these risks in order to keep the development of the Smart Eraser safe.
+\begin{itemize}
+	\item Power systems malfunctioning
+	\begin{itemize}
+	\item Ensure a secure connection of the power system to the wall outlet and the board and components themselves
+	\end{itemize}
+	\item Moving parts attached to the tracks on the whiteboard
+	\begin{itemize}
+	\item Always standing away from the board to ensure no parts will injure the members of the team
+	\item Introducing the failsafe program that will stop the movement of the components at the push of a button, in case there is a malfunction in the stepper motor movement code
+	\end{itemize}
+	\item Shorts between components causing burnout of parts
+	\begin{itemize}
+	\item Testing will be done with lower voltages than the final product to ensure that the components do not burn out
+\end{itemize}
+\end{itemize}
 
 \pagebreak
 
@@ -491,8 +504,6 @@ Along with the components listed in the budget, the following resources will als
 	\end{itemize}
 \end{itemize}
 
-\pagebreak
-
 \section{Roles of Team Members}
  Heather Libecki will be project manager of the Smart Eraser project. She has experience with programming the specific board (the DE1\_SoC) that will be used in this project, as well as connecting physical devices to it and controlling them via the GPIO ports. This project will be dependent on translating data from the camera into information that the microcontroller will be able to process, and her previous experience with the board plus her ability to learn and adapt quickly will help in that implementation. She is adept at solving problems, debugging and error detection, and technical writing, which will be an integral part in the completion of this project. A solid understanding of the microcontroller full capabilities will need to be further ascertained, as well as how the coordinate system will work in conjunction with the stepper motors, which will be connected to the DE1\_SoC. \par
  \setlength{\parindent}{5ex}
@@ -518,6 +529,7 @@ Along with the components listed in the budget, the following resources will als
 
 \section{Approvals}
 \setlength{\parindent}{15ex}
+\vspace{0.5in}
 	\begin{flushleft}
 	Signature: \hrulefill
 	
