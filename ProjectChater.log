@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  26 OCT 2018 00:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  26 OCT 2018 00:39
 entering extended mode
 **./ProjectChater.tex
 (ProjectChater.tex
@@ -553,65 +553,70 @@ line 366.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (39.99149pt too wide) in paragraph at lines 384--493
+Overfull \hbox (39.99149pt too wide) in paragraph at lines 397--506
  [][] 
  []
 
-[8 <./Smart Eraser Diagrams.png>]
-Overfull \vbox (385.51097pt too high) has occurred while \output is active []
+[8 <./Smart Eraser Diagrams.png>] [9 <./System block diagram.png>]
+Overfull \vbox (548.16824pt too high) has occurred while \output is active []
 
 
-[9 <./System block diagram.png>]
-<"GANTT chart 186A 1".png, id=56, 754.4988pt x 452.77155pt>
+[10 <./GPIO.png>]
+<"GANTT chart 186A 1".png, id=59, 754.4988pt x 452.77155pt>
 File: "GANTT chart 186A 1".png Graphic file (type png)
 <use "GANTT chart 186A 1".png>
-Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 500.
+Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 513.
 (pdftex.def)             Requested size: 754.49695pt x 452.77043pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<"GANTT chart 186B".png, id=57, 614.65636pt x 794.97pt>
+<"GANTT chart 186B".png, id=60, 614.65636pt x 794.97pt>
 File: "GANTT chart 186B".png Graphic file (type png)
 <use "GANTT chart 186B".png>
-Package pdftex.def Info: "GANTT chart 186B".png  used on input line 507.
+Package pdftex.def Info: "GANTT chart 186B".png  used on input line 520.
 (pdftex.def)             Requested size: 614.65486pt x 794.96806pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (8.57742pt too wide) in paragraph at lines 518--553
+Overfull \hbox (8.57742pt too wide) in paragraph at lines 531--566
  [][] 
  []
 
-[10 <./GPIO.png>] [11 <./Ethernet.png>] [12 <./stepper motor.png>] [13 <./Stepp
-er motor driver.png> <./stepper motor driver set current.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
-
+[11 <./Ethernet.png>] [12 <./stepper motor.png>]
+Overfull \hbox (29.3863pt too wide) in paragraph at lines 592--595
+[]\T1/ptm/m/n/12 >>>>>>> e3e57b83698858e945c0e2e66c08072f2f205657 >>>>>>> 527a8
+5daf9972f454708a6f341906becc9e594b4
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 585--586
+[13 <./Stepper motor driver.png> <./stepper motor driver set current.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
 [14 <./GANTT chart 186A 1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 606--607
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
@@ -623,7 +628,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5196 strings out of 493312
  85046 string characters out of 3138899
- 164245 words of memory out of 3000000
+ 166246 words of memory out of 3000000
  8639 multiletter control sequences out of 15000+200000
  98704 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -633,7 +638,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on ProjectChater.pdf (21 pages, 779049 bytes).
+Output written on ProjectChater.pdf (21 pages, 780215 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

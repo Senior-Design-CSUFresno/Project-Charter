@@ -16,11 +16,11 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Some Major Difficulties}{7}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-D}}Technical Advisor Background}{7}
 \contentsline {section}{\numberline {VI}High-Level Risks}{8}
-\contentsline {section}{\numberline {VII}Milestone Schedule}{8}
-\contentsline {section}{\numberline {VIII}Gantt Charts}{10}
-\contentsline {section}{\numberline {IX}Equipment and Budget}{10}
+\contentsline {section}{\numberline {VII}Milestone Schedule}{9}
+\contentsline {section}{\numberline {VIII}Gantt Charts}{11}
+\contentsline {section}{\numberline {IX}Equipment and Budget}{11}
 \contentsline {section}{\numberline {X}Roles of Team Members}{13}
-\contentsline {section}{\numberline {XI}Stakeholder List}{14}
+\contentsline {section}{\numberline {XI}Stakeholder List}{15}
 \contentsline {section}{\numberline {XII}Project Approval Requirements}{15}
 \contentsline {section}{\numberline {XIII}Approvals}{16}
 \contentsline {section}{References}{16}
