@@ -273,17 +273,74 @@ Explain all the major difficulties with the project.
 List who your technical faculty advisor is, what their area of expertise is, and how
 you will use that expertise in your project.
 
-Here is where you should \textbf{include your block diagrams, flow charts, and circuit diagrams}.
-Each project should have multiple parts that need to communicate, so you need a diagram that shows the details
-of the names of the connections, the size of the busses, etc.  Those with programs, which I also believe is all,
-should have outlines of flowcharts for the programs that will be used in your project.
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}]{"Smart Eraser Diagrams".png}}
+	\caption{Flow Chart of the Smart Eraser System}
+	\label{fig:FC1}
+\end{figure}
+
+\pagebreak[4]
+
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}]{"System block diagram".png}}
+	\caption{Block diagram of main system components}
+	\label{fig:BD1}
+\end{figure}
+
+\pagebreak[4]
+
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}]{"GPIO".png}}
+	\caption{GPIO Header pin layout}
+	\label{fig:GPIO}
+\end{figure}
+
+\pagebreak[4]
+
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}]{"Ethernet".png}}
+	\caption{Overview of Interface for Ethernet Communications}
+	\label{fig:Ether}
+\end{figure}
+
+\pagebreak[4]
+
+
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}]{"stepper motor".png}}
+	\caption{Data sheet for the 23HS22-2804S stepper motor}
+	\label{fig:SM}
+\end{figure}
+
+\pagebreak[4]
+
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}]{"Stepper motor driver".png}}
+	\caption{Microstep resolution guide for the DM542 stepper motor driver}
+	\label{fig:SMD1}
+\end{figure}
+
+\pagebreak[4]
+
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}]{"stepper motor driver set current".png}}
+	\caption{Dynamic current settings guide for the DM542 stepper motor driver}
+	\label{fig:SMD2}
+\end{figure}
+
+\pagebreak[4]
 
 \section{High-Level Risks}
 What are the risks associated with your project?  For most, there are power systems you must be concerned about,
 or moving parts, or a number of other possibilities.  List what these are, and how you are addressing keeping
 your project development safe.
-
-\pagebreak
 
 \section{Milestone Schedule}
 \setlength{\parindent}{5ex}
@@ -344,15 +401,6 @@ your project development safe.
 		\hline
 		Chris Q. & 11/15-11/25/18 & Test initial information found on image processing program.\\
 		\hline
-	\end{tabular} 
-\end{table}	
-
-\setlength{\parindent}{5ex}
-\begin{table} [H]	
-	\normalsize
-	\centering
-	\begin{tabular}{|l|l|l|}
-		\hline
 		\multicolumn{1}{|c|}{\textbf{Member Assign.}} & \multicolumn{1}{|c|}{\textbf{Start-End Date}} & \multicolumn{1}{|c|}{\textbf{Description}} \\
 		\hline
 		Heather L. & 11/15-11/25/18 & Test the microcontroller after researching the ports needed for the \\
@@ -370,17 +418,6 @@ your project development safe.
 		All & 12/13-12/14/18 & 
 		Present Project Charter to Senior Design class, professor, and \\
 		& & academic advisor.\\
-		\hline
-	\end{tabular} 
-	\caption{Senior Design Semester 1 - Research Phase.}
-	\label{table:2}
-\end{table}	
-
-\setlength{\parindent}{5ex}
-\begin{table} [H]	
-	\normalsize
-	\centering
-	\begin{tabular}{|l|l|l|}
 		\hline
 		\multicolumn{1}{|c|}{\textbf{Member Assign.}} & \multicolumn{1}{|c|}{\textbf{Start-End Date}} & \multicolumn{1}{|c|}{\textbf{Description}} \\
 		\hline
@@ -429,8 +466,6 @@ your project development safe.
 	\caption{GANTT chart for semester 1}
 	\label{fig:GANTT186A}
 \end{figure}
-
-\newpage
 
 \begin{figure}[h!]
 	\centering
@@ -482,8 +517,6 @@ your project development safe.
 	\caption{Estimated costs of components for project}
 	\label{table:1}
 \end{table}	
-
-\pagebreak
 
 \section{Roles of Team Members}
  Heather Libecki will be project manager of the Smart Eraser project. She has experience with programming the specific board (the DE1-SoC) that will be used in this project, as well as connecting physical devices to it and controlling them via the GPIO ports. This project will be dependent on translating data from the camera into information that the microcontroller will be able to process, and her previous experience with the board plus her ability to learn and adapt quickly will help in that implementation. She is adept at solving problems, debugging and error detection, and technical writing, which will be an integral part in the completion of this project. A solid understanding of the microcontroller full capabilities will need to be further ascertained, as well as how the coordinate system will work in conjunction with the stepper motors, which will be connected to the\par

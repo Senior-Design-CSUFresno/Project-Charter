@@ -11,12 +11,12 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-G}}Shortest Path Algorithm}{6}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-H}}Motion-Detection Program}{6}
 \contentsline {section}{\numberline {V}Project Description and Boundaries}{6}
-\contentsline {section}{\numberline {VI}High-Level Risks}{6}
-\contentsline {section}{\numberline {VII}Milestone Schedule}{7}
-\contentsline {section}{\numberline {VIII}Gantt Charts}{8}
+\contentsline {section}{\numberline {VI}High-Level Risks}{7}
+\contentsline {section}{\numberline {VII}Milestone Schedule}{8}
+\contentsline {section}{\numberline {VIII}Gantt Charts}{9}
 \contentsline {section}{\numberline {IX}Equipment and Budget}{9}
 \contentsline {section}{\numberline {X}Roles of Team Members}{10}
-\contentsline {section}{\numberline {XI}Stakeholder List}{10}
-\contentsline {section}{\numberline {XII}Project Approval Requirements}{10}
-\contentsline {section}{\numberline {XIII}Approvals}{11}
-\contentsline {section}{References}{11}
+\contentsline {section}{\numberline {XI}Stakeholder List}{11}
+\contentsline {section}{\numberline {XII}Project Approval Requirements}{11}
+\contentsline {section}{\numberline {XIII}Approvals}{12}
+\contentsline {section}{References}{13}
