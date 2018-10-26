@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {I}Introduction}{1}
+\contentsline {section}{\numberline {II}Project Objectives and Success Criteria}{2}
+\contentsline {section}{\numberline {III}High-Level Requirements}{3}
+\contentsline {section}{\numberline {IV}Assumptions, Constraints, and Standards}{3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Camera Ethernet Connectivity and Data Transfer}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Data Storage}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Image Processing Program Design}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Translate Markings to Coordinate System (stepper motor rotations)}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-E}}Stepper Motor System Design}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-F}}Microcontroller Involvement}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-G}}Shortest Path Algorithm}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-H}}Motion-Detection Program}{5}
+\contentsline {section}{\numberline {V}Project Description and Boundaries}{5}
+\contentsline {section}{\numberline {VI}High-Level Risks}{5}
+\contentsline {section}{\numberline {VII}Milestone Schedule}{6}
+\contentsline {section}{\numberline {VIII}Gantt Charts}{7}
+\contentsline {section}{\numberline {IX}Equipment and Budget}{8}
+\contentsline {section}{\numberline {X}Roles of Team Members}{9}
+\contentsline {section}{\numberline {XI}Stakeholder List}{9}
+\contentsline {section}{\numberline {XII}Project Approval Requirements}{9}
+\contentsline {section}{\numberline {XIII}Approvals}{10}
+\contentsline {section}{References}{10}

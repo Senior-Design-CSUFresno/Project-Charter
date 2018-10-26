@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  25 OCT 2018 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  25 OCT 2018 22:48
 entering extended mode
 **./ProjectChater.tex
 (ProjectChater.tex
@@ -313,72 +313,99 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen147
 \@vwid@roff=\dimen148
 ))
-(ProjectChater.aux)
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box32
+\beforetitleunit=\skip44
+\aftertitleunit=\skip45
+\ttl@plus=\dimen149
+\ttl@minus=\dimen150
+\ttl@toksa=\toks20
+\titlewidth=\dimen151
+\titlewidthlast=\dimen152
+\titlewidthfirst=\dimen153
+
+! Undefined control sequence.
+<argument> \subparagraph 
+                         
+l.1291 \ttl@extract\subparagraph
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+) (ProjectChater.aux)
 \openout1 = `ProjectChater.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <6> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <22> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <22> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 
 -- Lines per column: 50 (exact).
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
-\scratchdimen=\dimen149
-\scratchbox=\box32
+\scratchdimen=\dimen154
+\scratchbox=\box33
 \nofMPsegments=\count100
 \nofMParguments=\count101
-\everyMPshowfont=\toks20
+\everyMPshowfont=\toks21
 \MPscratchCnt=\count102
-\MPscratchDim=\dimen150
+\MPscratchDim=\dimen155
 \MPnumerator=\count103
 \makeMPintoPDFobject=\count104
-\everyMPtoPDFconversion=\toks21
+\everyMPtoPDFconversion=\toks22
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -394,130 +421,177 @@ G,.JBIG2,.JB2,.eps]
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- [1{C:/Users/thees/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 79.
+ [1{C:/Users/thees/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (Pro
+jectChater.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+)
+\tf@toc=\write3
+\openout3 = `ProjectChater.toc'.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+
+(ProjectChater.lof)
+\tf@lof=\write4
+\openout4 = `ProjectChater.lof'.
+
+ (ProjectChater.lot)
+\tf@lot=\write5
+\openout5 = `ProjectChater.lot'.
+
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 
  []
 
-[4]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 101.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 101.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 101.
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Overfull \hbox (0.9071pt too wide) in paragraph at lines 124--125
+Overfull \hbox (0.9071pt too wide) in paragraph at lines 125--126
 []\T1/ptm/m/n/12 TRUE sig-nal from motion-detection pro-gram halts the move-men
 t of the eraser, re-sumes the eraser’s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Overfull \hbox (10.0393pt too wide) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Overfull \hbox (10.0393pt too wide) in paragraph at lines 172--173
 []\T1/ptm/m/n/12 Strengths: elec-tri-cal sys-tems, cir-cuitry de-sign, prob-lem
  solv-ing, power sys-tems, pub-lic speak-ing/relations 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+[4] [5]
+Overfull \hbox (32.39539pt too wide) in paragraph at lines 248--303
+ [][] 
+ []
+
+
+Overfull \hbox (11.01146pt too wide) in paragraph at lines 309--330
+ [][] 
+ []
+
+
+Overfull \hbox (39.99149pt too wide) in paragraph at lines 338--377
+ [][] 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-[7] [8]
-<"GANTT chart 186A 1".png, id=32, 754.4988pt x 452.77155pt>
+<"GANTT chart 186A 1".png, id=34, 754.4988pt x 452.77155pt>
 File: "GANTT chart 186A 1".png Graphic file (type png)
 <use "GANTT chart 186A 1".png>
-Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 247.
+Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 383.
 (pdftex.def)             Requested size: 754.49695pt x 452.77043pt.
 
-Overfull \hbox (4.03014pt too wide) in paragraph at lines 247--248
+Overfull \hbox (4.03014pt too wide) in paragraph at lines 383--384
  [][]\T1/ptm/m/n/12 ] 
  []
 
-<"GANTT chart 186B".png, id=33, 614.65636pt x 794.97pt>
+[7 <./GANTT chart 186A 1.png>]
+<"GANTT chart 186B".png, id=38, 614.65636pt x 794.97pt>
 File: "GANTT chart 186B".png Graphic file (type png)
 <use "GANTT chart 186B".png>
-Package pdftex.def Info: "GANTT chart 186B".png  used on input line 254.
+Package pdftex.def Info: "GANTT chart 186B".png  used on input line 392.
 (pdftex.def)             Requested size: 614.65486pt x 794.96806pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (8.57742pt too wide) in paragraph at lines 262--297
+Overfull \hbox (8.57742pt too wide) in paragraph at lines 402--437
  [][] 
  []
 
-[9 <./GANTT chart 186A 1.png>]
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
-LaTeX Warning: Text page 10 contains only floats.
-
-
-Overfull \vbox (5.49849pt too high) has occurred while \output is active []
+ []
 
 
-[10 <./GANTT chart 186B.png>] (ProjectChater.bbl) [11] (ProjectChater.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+
+ []
+
+[9] (ProjectChater.bbl) [10] [11 <./GANTT chart 186B.png>] (ProjectChater.aux) 
+) 
 Here is how much of TeX's memory you used:
- 5169 strings out of 493312
- 84145 string characters out of 3138899
- 153124 words of memory out of 3000000
- 8624 multiletter control sequences out of 15000+200000
- 99325 words of font info for 106 fonts, out of 3000000 for 9000
+ 5422 strings out of 493312
+ 87401 string characters out of 3138899
+ 166029 words of memory out of 3000000
+ 8869 multiletter control sequences out of 15000+200000
+ 98704 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,77p,1452b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:
-/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
-s/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectChater.pdf (11 pages, 233078 bytes).
+ 37i,8n,77p,1452b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ProjectChater.pdf (14 pages, 234243 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
