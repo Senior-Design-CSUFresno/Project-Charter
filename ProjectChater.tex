@@ -116,18 +116,69 @@ Ambitious success criteria
  
  
  \section{High-Level Requirements}
- A list of requirements at a high level.  This will include things such as being implementable in 2 semesters, completed within a budget, as well
- as other requirements placed on your project.
+The high-level requirements associated with the completion of this project are outlined in the following list. \par
+\setlength{\parindent}{2.5ex} The project should:
+\begin{itemize}
+\item Be completed with the outlined budget
+\item Be implementable within 2 semesters
+\item Be complex enough to warrant the title “senior design project”
+\item Have significant, roughly equal portions of the project be completed by each team member
+\item Utilize material learned in core and technical elective classes throughout our college careers
+\item Produce a deliverable that can be presented in the Senior Project Presentation Day event usually held in the Satellite Student Union building on campus
+\item Be able to be scaled to a bigger surface than the prototype
+\end{itemize}
  
 \section{Assumptions, Constraints, and Standards}
-Describe the background, strengths and weaknesses, of each
-team member's knowledge, as it pertains to the project.  Explain in detail what background information is going to need to be researched
-and learned to complete your project.  You should list specific courses that you have taken during your time at Fresno State that you will need to 
-use information from to complete your project.  Note, for a successful Senior Design Topic, you must be using a breadth of knowledge.
+Based on the preliminary research conducted on what information, components, and protocols will be useful to know for the completion of this project, the team members wrote a list of their strengths and weaknesses to show what they can each do, and what needs more work. The specific courses with the relevant information needed for this project are also listed. \\ \par
+\setlength{\parindent}{2.5ex} Heather Libecki
+\begin{itemize}
+	\item Strengths: programming (assembly, some verilog), DE1\_SoC programming, mathematics, debugging, circuit implementation, problem solving, technical writing, public speaking
+	\item Weaknesses: circuitry design, coding algorithms, power systems, PCB design \\ 
+\end{itemize} \par
+\setlength{\parindent}{2.5ex} Chris Quesada
+\begin{itemize}
+\item Strengths: programming (assembly, verilog), embedded systems, algorithms, brainstorming
+\item Weaknesses: circuitry design, mathematics, public speaking, ethernet capabilities \\ 
+\end{itemize} \par
+\setlength{\parindent}{2.5ex} Juan Colin
+\begin{itemize}
+\item Strengths: electrical systems, circuitry design, problem solving, power systems, public speaking/relations
+\item Weaknesses: programming (assembly, verilog), technical writing and spelling \\
+\end{itemize}
+
+Based on this list, the background information that will need to be further researched is: image processing programs, connecting physical devices for the track of the eraser, camera and DE1\_SoC connectivity, PCB design for the stepper motor H-bridges, and other research as necessary. A few possible constraints on the project are the budget funding, the additional power supply needed to make the more powerful stepper motors operate, and the power supply to the camera.
+
+The following list outlines the relevant courses and the material that will be used from them. \\
+\begin{itemize}
+	\item ECE 178 - Embedded Systems
+	\begin{itemize}
+		\item Development of algorithms, setting up and using interrupts with the microcontroller, interfacing with peripherals on the microcontroller
+	\end{itemize}
+	\item ECE 146 - Computer Networks
+	\begin{itemize}
+		\item Ethernet connection between systems and how data is transferred over link
+	\end{itemize}
+	\item ECE 90 - Principles of Electrical Circuits
+	\begin{itemize}
+		\item Developing the power scheme and parameters for the stepper motors and track system.
+		\end{itemize}
+	\item ECE 118 - Microprocessor Architecture and Programming
+	\begin{itemize}
+		\item Recursion programming and algorithms developed for shortest-tree path, determining how to store memory in DE1\_SoC, working with ARM processor, GPIO connections to DE1\_SoC, using stepper motors, H-bridge, and power supply to operate stepper motors with DE1\_SoC, programming push-buttons on DE1\_SoC
+	\end{itemize}
+	\item ECE 85 - Digital Logic Design
+	\begin{itemize}
+		\item Developing PCB for H-bridge connections, any state diagrams needed for logic between processes
+	\end{itemize}
+	\item ECE 106 - Switching Theory and Logical Design
+	\begin{itemize}
+		\item Developing flow charts and block diagrams of the overall system \\
+	\end{itemize}
+\end{itemize}
+
 
 At this point you should have completed some extensive background research, which should be included here.
 
-List any other constraints you may have.
 
 Include a \textbf{list of the standards that you will be following in this project}.  Remember that there is an
 IEEE standard for just about any communication protocol, format, or language used in ECE, so make sure to
