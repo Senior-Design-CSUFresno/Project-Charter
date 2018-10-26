@@ -273,6 +273,38 @@ Explain all the major difficulties with the project.
 List who your technical faculty advisor is, what their area of expertise is, and how
 you will use that expertise in your project.
 
+\subsection{Major Components}
+\begin{enumerate}
+	\item DE1\_SoC development board
+	\item Camera
+	\item Stepper motors
+	\item Stepper motor drivers
+	\item Linear Motion system (x \& y direction)
+	\item Eraser
+	\item Whiteboard
+	\item PCB's
+\end{enumerate}
+\subsection{Minor Components}
+\begin{enumerate}
+	\item Various wire connections
+	\item CAT-6 cable
+	\item timing belt
+	\item timing belt pulley flange
+	\item Stepper motor mounting brackets
+	\item screws
+	\item screw drivers
+	\item drill
+\end{enumerate}
+
+\subsection{Some Major Difficulties}
+There are a few different major difficult areas that will take up a majority of the development phase of the project. The first difficulty to overcome is establishing a working connection between the camera and the DE1\_SoC board. This needs to be done through the ethernet communication protocol standard IEEE 802.3-2018 for Ethernet. Having had no experience in this yet there will be quite the learning curve in getting it to work properly.\par
+\setlength{\parindent}{2.5ex}
+Once an Ethernet connection is established, the next major difficulty will be to perform image processing on the images being sent from the camera. This processing will be accomplished by using the ARM IHI 0042F Procedure Call standard for the ARM architecture in the altera monitor program using the C language.The program needs to analyze the data in order to detect markings within the image and store the pixel locations of these markings in an array to be processed by the Dijkstra algorithm to generate a shortest path between all markings that were detected. This path will be the path that the eraser will take when erasing all the markings.\par
+\setlength{\parindent}{2.5ex}
+The last major obstacle will be to translate the derived shortest path from the Dijkstra algorithm to stepper motor rotations. Along with this, the degree of rotation of the stepper motor will need to be developed so that it is equivalent to the length of one pixel on the image grid.
+
+\subsection{Technical Advisor Background}	
+Hovannes Kulhandjian is an Assistant Professor in the Department of Electrical and Computer Engineering at California State University, Fresno (Fresno State). Before joining Fresno State he was an Associate Research Engineer in the Department of Electrical and Computer Engineering at Northeastern University. He was working on the development of the Northeastern University Marine Observatory NETwork
 \begin{figure}[h!]
 	\centering
 	{\includegraphics[max size={\textwidth}{\textheight}]{"Smart Eraser Diagrams".png}}
@@ -297,6 +329,7 @@ you will use that expertise in your project.
 	\caption{GPIO Header pin layout}
 	\label{fig:GPIO}
 \end{figure}
+
 
 \pagebreak[4]
 
@@ -521,8 +554,6 @@ The following table lists the components that are expected for the completion of
 	\label{table:1}
 \end{table}	
 
-<<<<<<< HEAD
-=======
 Along with the components listed in the budget, the following resources will also be needed to ensure the completion of this project.
 \begin{itemize}
 	\item A DC power source to provide the appropriate voltage to the stepper motors
@@ -540,8 +571,6 @@ Along with the components listed in the budget, the following resources will als
 \end{itemize}
 
 \pagebreak
-
->>>>>>> e3e57b83698858e945c0e2e66c08072f2f205657
 \section{Roles of Team Members}
  Heather Libecki will be project manager of the Smart Eraser project. She has experience with programming the specific board (the DE1\_SoC) that will be used in this project, as well as connecting physical devices to it and controlling them via the GPIO ports. This project will be dependent on translating data from the camera into information that the microcontroller will be able to process, and her previous experience with the board plus her ability to learn and adapt quickly will help in that implementation. She is adept at solving problems, debugging and error detection, and technical writing, which will be an integral part in the completion of this project. A solid understanding of the microcontroller full capabilities will need to be further ascertained, as well as how the coordinate system will work in conjunction with the stepper motors, which will be connected to the DE1\_SoC. \par
  \setlength{\parindent}{5ex}
