@@ -22,7 +22,15 @@
 \BIBdecl
 
 \bibitem{de1}
-A.~J. Arduengo, III, R.~L. Harlow, and M.~Kline, ``A stable crystalline
-  carbene,'' \emph{J. Am. Chem. Soc.}, vol. 113, no.~1, pp. 361--363, 1991.
+Altera, ``{DE1-SoC Reference Manual},''
+  http://www.ee.ic.ac.uk/pcheung/teaching/ee2digital/DE1SoCUsermanual.pdf,.
+
+\bibitem{SM}
+Oyostepper, ``{23Hs22-2804S data sheet},''
+  https://www.oyostepper.com/images/upload/File/23HS22-2804S.pdf,.
+
+\bibitem{SMD}
+L.~Leadshine Technology~CO, ``{DM542 User Manual},''
+  http://robokits.download/datasheets/Leadshine%20DM542.pdf,.
 
 \end{thebibliography}
