@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  26 OCT 2018 00:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  26 OCT 2018 00:31
 entering extended mode
 **./ProjectChater.tex
 (ProjectChater.tex
@@ -491,81 +491,145 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-[5] [6]
-Overfull \hbox (32.39539pt too wide) in paragraph at lines 307--378
+[5]
+<"Smart Eraser Diagrams".png, id=32, 612.93994pt x 512.21362pt>
+File: "Smart Eraser Diagrams".png Graphic file (type png)
+<use "Smart Eraser Diagrams".png>
+Package pdftex.def Info: "Smart Eraser Diagrams".png  used on input line 278.
+(pdftex.def)             Requested size: 612.93843pt x 512.21237pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]
+<"System block diagram".png, id=36, 382.12762pt x 294.04857pt>
+File: "System block diagram".png Graphic file (type png)
+<use "System block diagram".png>
+Package pdftex.def Info: "System block diagram".png  used on input line 287.
+(pdftex.def)             Requested size: 382.12668pt x 294.04785pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<"GPIO".png, id=37, 367.3725pt x 456.70625pt>
+File: "GPIO".png Graphic file (type png)
+<use "GPIO".png>
+Package pdftex.def Info: "GPIO".png  used on input line 296.
+(pdftex.def)             Requested size: 367.37158pt x 456.70512pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<"Ethernet".png, id=38, 741.972pt x 371.4678pt>
+File: "Ethernet".png Graphic file (type png)
+<use "Ethernet".png>
+Package pdftex.def Info: "Ethernet".png  used on input line 305.
+(pdftex.def)             Requested size: 741.97018pt x 371.46689pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<"stepper motor".png, id=39, 630.55576pt x 445.06274pt>
+File: "stepper motor".png Graphic file (type png)
+<use "stepper motor".png>
+Package pdftex.def Info: "stepper motor".png  used on input line 315.
+(pdftex.def)             Requested size: 630.55421pt x 445.06165pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<"Stepper motor driver".png, id=41, 453.49425pt x 356.532pt>
+File: "Stepper motor driver".png Graphic file (type png)
+<use "Stepper motor driver".png>
+Package pdftex.def Info: "Stepper motor driver".png  used on input line 324.
+(pdftex.def)             Requested size: 453.49313pt x 356.53111pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<"stepper motor driver set current".png, id=42, 448.67625pt x 151.767pt>
+File: "stepper motor driver set current".png Graphic file (type png)
+<use "stepper motor driver set current".png>
+Package pdftex.def Info: "stepper motor driver set current".png  used on input 
+line 333.
+(pdftex.def)             Requested size: 448.67516pt x 151.76662pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (39.99149pt too wide) in paragraph at lines 364--473
  [][] 
  []
 
+[7 <./Smart Eraser Diagrams.png>] [8 <./System block diagram.png>]
+Overfull \vbox (548.16824pt too high) has occurred while \output is active []
 
-Overfull \hbox (39.99149pt too wide) in paragraph at lines 386--425
- [][] 
- []
 
-[7]
-<"GANTT chart 186A 1".png, id=38, 754.4988pt x 452.77155pt>
+[9 <./GPIO.png>]
+<"GANTT chart 186A 1".png, id=52, 754.4988pt x 452.77155pt>
 File: "GANTT chart 186A 1".png Graphic file (type png)
 <use "GANTT chart 186A 1".png>
-Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 432.
+Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 480.
 (pdftex.def)             Requested size: 754.49695pt x 452.77043pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
-<"GANTT chart 186B".png, id=42, 614.65636pt x 794.97pt>
+<"GANTT chart 186B".png, id=53, 614.65636pt x 794.97pt>
 File: "GANTT chart 186B".png Graphic file (type png)
 <use "GANTT chart 186B".png>
-Package pdftex.def Info: "GANTT chart 186B".png  used on input line 441.
+Package pdftex.def Info: "GANTT chart 186B".png  used on input line 487.
 (pdftex.def)             Requested size: 614.65486pt x 794.96806pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (8.57742pt too wide) in paragraph at lines 452--487
+Overfull \hbox (8.57742pt too wide) in paragraph at lines 498--533
  [][] 
  []
 
-[9 <./GANTT chart 186A 1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
+[10 <./Ethernet.png>] [11 <./stepper motor.png>]
+Overfull \hbox (29.3863pt too wide) in paragraph at lines 559--561
+[]\T1/ptm/m/n/12 >>>>>>> e3e57b83698858e945c0e2e66c08072f2f205657 >>>>>>> 527a8
+5daf9972f454708a6f341906becc9e594b4 
+ []
+
+[12 <./Stepper motor driver.png> <./stepper motor driver set current.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 571--572
+
+ []
+
+[13 <./GANTT chart 186A 1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--523
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
-[11] (ProjectChater.bbl) [12] [13 <./GANTT chart 186B.png>] (ProjectChater.aux)
+[14] (ProjectChater.bbl) [15] [16 <./GANTT chart 186B.png>] (ProjectChater.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5155 strings out of 493312
- 84235 string characters out of 3138899
- 161191 words of memory out of 3000000
- 8605 multiletter control sequences out of 15000+200000
+ 5196 strings out of 493312
+ 85222 string characters out of 3138899
+ 166244 words of memory out of 3000000
+ 8639 multiletter control sequences out of 15000+200000
  98704 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,9n,77p,1556b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -574,9 +638,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on ProjectChater.pdf (16 pages, 248367 bytes).
+Output written on ProjectChater.pdf (19 pages, 776344 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
