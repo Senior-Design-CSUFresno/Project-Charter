@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  25 OCT 2018 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  25 OCT 2018 23:49
 entering extended mode
 **./ProjectChater.tex
 (ProjectChater.tex
@@ -398,7 +398,7 @@ G,.JBIG2,.JB2,.eps]
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- [1{C:/Users/thees/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Project
+ [1{C:/Users/pumpe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Project
 Chater.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 5.
@@ -443,12 +443,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
- []
-
-
-Overfull \hbox (0.9071pt too wide) in paragraph at lines 144--145
-[]\T1/ptm/m/n/12 TRUE sig-nal from motion-detection pro-gram halts the move-men
-t of the eraser, re-sumes the eraser’s
  []
 
 
@@ -498,17 +492,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
  []
 
 [5] [6]
-Overfull \hbox (32.39539pt too wide) in paragraph at lines 293--348
+Overfull \hbox (32.39539pt too wide) in paragraph at lines 294--365
  [][] 
  []
 
 
-Overfull \hbox (11.01146pt too wide) in paragraph at lines 354--375
- [][] 
- []
-
-
-Overfull \hbox (39.99149pt too wide) in paragraph at lines 383--422
+Overfull \hbox (39.99149pt too wide) in paragraph at lines 373--412
  [][] 
  []
 
@@ -516,74 +505,78 @@ Overfull \hbox (39.99149pt too wide) in paragraph at lines 383--422
 <"GANTT chart 186A 1".png, id=38, 754.4988pt x 452.77155pt>
 File: "GANTT chart 186A 1".png Graphic file (type png)
 <use "GANTT chart 186A 1".png>
-Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 428.
+Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 419.
 (pdftex.def)             Requested size: 754.49695pt x 452.77043pt.
- [8 <./GANTT chart 186A 1.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8]
 <"GANTT chart 186B".png, id=42, 614.65636pt x 794.97pt>
 File: "GANTT chart 186B".png Graphic file (type png)
 <use "GANTT chart 186B".png>
-Package pdftex.def Info: "GANTT chart 186B".png  used on input line 437.
+Package pdftex.def Info: "GANTT chart 186B".png  used on input line 428.
 (pdftex.def)             Requested size: 614.65486pt x 794.96806pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (8.57742pt too wide) in paragraph at lines 447--482
+Overfull \hbox (8.57742pt too wide) in paragraph at lines 439--474
  [][] 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+[9 <./GANTT chart 186A 1.png>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
 
  []
 
-[10] (ProjectChater.bbl) [11] [12 <./GANTT chart 186B.png>] (ProjectChater.aux)
+[11] (ProjectChater.bbl) [12] [13 <./GANTT chart 186B.png>] (ProjectChater.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  5155 strings out of 493312
- 84059 string characters out of 3138899
+ 84235 string characters out of 3138899
  161191 words of memory out of 3000000
  8605 multiletter control sequences out of 15000+200000
  98704 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,77p,1556b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,9n,77p,1556b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on ProjectChater.pdf (15 pages, 247110 bytes).
+Output written on ProjectChater.pdf (16 pages, 248170 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
