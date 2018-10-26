@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  25 OCT 2018 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  25 OCT 2018 22:46
 entering extended mode
 **./ProjectChater.tex
 (ProjectChater.tex
@@ -313,7 +313,11 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen147
 \@vwid@roff=\dimen148
 ))
-(ProjectChater.aux)
+(ProjectChater.aux
+
+LaTeX Warning: Label `fig:GANTT186A' multiply defined.
+
+)
 \openout1 = `ProjectChater.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -394,130 +398,144 @@ G,.JBIG2,.JB2,.eps]
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- [1{C:/Users/thees/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+ [1{C:/Users/pumpe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 79.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-
- []
-
-[4]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 101.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 101.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 101.
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+<"Layout".png, id=13, 374.90062pt x 269.20575pt>
+File: "Layout".png Graphic file (type png)
+<use "Layout".png>
+Package pdftex.def Info: "Layout".png  used on input line 94.
+(pdftex.def)             Requested size: 374.8997pt x 269.20508pt.
+ [4 <./Layout.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 121.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 121.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 121.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Overfull \hbox (0.9071pt too wide) in paragraph at lines 124--125
+Overfull \hbox (0.9071pt too wide) in paragraph at lines 144--145
 []\T1/ptm/m/n/12 TRUE sig-nal from motion-detection pro-gram halts the move-men
 t of the eraser, re-sumes the eraser’s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Overfull \hbox (10.0393pt too wide) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Overfull \hbox (10.0393pt too wide) in paragraph at lines 191--192
 []\T1/ptm/m/n/12 Strengths: elec-tri-cal sys-tems, cir-cuitry de-sign, prob-lem
  solv-ing, power sys-tems, pub-lic speak-ing/relations 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-[7] [8]
-<"GANTT chart 186A 1".png, id=32, 754.4988pt x 452.77155pt>
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+[8] [9]
+<"GANTT chart 186A 1".png, id=36, 754.4988pt x 452.77155pt>
 File: "GANTT chart 186A 1".png Graphic file (type png)
 <use "GANTT chart 186A 1".png>
-Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 247.
+Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 293.
 (pdftex.def)             Requested size: 754.49695pt x 452.77043pt.
-
-Overfull \hbox (4.03014pt too wide) in paragraph at lines 247--248
- [][]\T1/ptm/m/n/12 ] 
- []
-
-<"GANTT chart 186B".png, id=33, 614.65636pt x 794.97pt>
+<"GANTT chart 186B".png, id=37, 614.65636pt x 794.97pt>
 File: "GANTT chart 186B".png Graphic file (type png)
 <use "GANTT chart 186B".png>
-Package pdftex.def Info: "GANTT chart 186B".png  used on input line 254.
+Package pdftex.def Info: "GANTT chart 186B".png  used on input line 300.
 (pdftex.def)             Requested size: 614.65486pt x 794.96806pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (8.57742pt too wide) in paragraph at lines 262--297
+Overfull \hbox (8.57742pt too wide) in paragraph at lines 308--343
  [][] 
  []
 
-[9 <./GANTT chart 186A 1.png>]
+[10 <./GANTT chart 186A 1.png>]
 
-LaTeX Warning: Text page 10 contains only floats.
+LaTeX Warning: Text page 11 contains only floats.
 
 
 Overfull \vbox (5.49849pt too high) has occurred while \output is active []
 
 
-[10 <./GANTT chart 186B.png>] (ProjectChater.bbl) [11] (ProjectChater.aux) ) 
+[11 <./GANTT chart 186B.png>] (ProjectChater.bbl) [12] (ProjectChater.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5169 strings out of 493312
- 84145 string characters out of 3138899
- 153124 words of memory out of 3000000
- 8624 multiletter control sequences out of 15000+200000
+ 5174 strings out of 493312
+ 84332 string characters out of 3138899
+ 154165 words of memory out of 3000000
+ 8628 multiletter control sequences out of 15000+200000
  99325 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,77p,1452b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:
-/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
-s/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectChater.pdf (11 pages, 233078 bytes).
+ 37i,8n,77p,1556b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
+/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ProjectChater.pdf (12 pages, 245912 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
