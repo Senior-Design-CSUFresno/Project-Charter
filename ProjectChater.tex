@@ -3,9 +3,27 @@
 %ECE 186A - Senior Design
 %
 %This is a template you can use for your Project Charter, though you will need to change a good portion of it for your own needs.
+\RequirePackage{filecontents}
+\begin{filecontents*}{reference.bib}
+	@Article{de1,
+		Title                    = {A stable crystalline carbene},
+		Author                   = 
+		{Arduengo, III, Anthony J. and Harlow, Richard L. and Kline, Michael},
+		Journal                  = {J. Am. Chem. Soc.},
+		Year                     = {1991},
+		Number                   = {1},
+		Pages                    = {361-363},
+		Volume                   = {113},
+	}
+\end{filecontents*}
+
+
 
 \documentclass[12pt,onecolumn]{IEEEtran}			%Everything is default, except  which is journal, 10pt font, and final draft
-
+\usepackage{dtk-logos}						%This let me do the cool BibTeX logo, you shouldn't need this line. Add additional packages here:
+\usepackage{graphics}
+\usepackage{float}
+\usepackage{caption} 
 %add packages here:
 
 \title{ \hfill  \vspace{2in} \\Draft Project Charter Instructions \vspace{1in} }	%the \vspace is moving the title down from the top of the page
@@ -156,11 +174,14 @@ You should also have a detailed budget of what components you will be purchasing
 %\textbf{Technical Advisor:} Dr. Esteemed Professor}
 
 \section*{References}
-You will use Bibtex to generate references for all of the material you cited, using \verb1\cite{}1, to write this report.
-Use the \verb1\bibliographystyle{IEEEtran}1 to generate your references.
+You will use Bibtex to generate references for all of the material you cited, using \cite{de1}, to write this report.
+Use the to generate your references.
 
 Remember, you need to compile your .tex source file once as Latex, then once as Bibtex, then once again as Latex.
 The first compile determines what the citations are, the second generates the list of references, the third assigns
 the correct reference numbers.
+
+	\bibliographystyle{IEEEtran}
+	\bibliography{reference}	
  
 \end{document}
