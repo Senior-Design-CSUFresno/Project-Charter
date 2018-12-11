@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  28 NOV 2018 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  10 DEC 2018 23:09
 entering extended mode
 **./ProjectChater-Final.tex
 (ProjectChater-Final.tex
@@ -313,64 +313,57 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen147
 \@vwid@roff=\dimen148
 ))
-(ProjectChater-Final.aux
-
-LaTeX Warning: Label `table:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:GANTT186A' multiply defined.
-
-)
+(ProjectChater-Final.aux)
 \openout1 = `ProjectChater-Final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <6> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <22> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <22> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 
 -- Lines per column: 50 (exact).
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -401,240 +394,382 @@ G,.JBIG2,.JB2,.eps]
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- [1{C:/Users/pumpe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Project
-Chater-Final.toc
+ [1{C:/Users/thees/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 5.
+(Font)              <12> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
-)
+(Font)              <6> on input line 118.
+
+Overfull \hbox (30.46408pt too wide) in paragraph at lines 118--161
+ [][] 
+ []
+
+[2] [3] (ProjectChater-Final.toc [4])
 \tf@toc=\write3
 \openout3 = `ProjectChater-Final.toc'.
 
-(ProjectChater-Final.lof)
+ (ProjectChater-Final.lof)
 \tf@lof=\write4
 \openout4 = `ProjectChater-Final.lof'.
 
- (ProjectChater-Final.lot)
+
+(ProjectChater-Final.lot)
 \tf@lot=\write5
 \openout5 = `ProjectChater-Final.lot'.
 
- [2] [3] [4]
-<"Layout".png, id=16, 374.90062pt x 269.20575pt>
-File: "Layout".png Graphic file (type png)
-<use "Layout".png>
-Package pdftex.def Info: "Layout".png  used on input line 94.
-(pdftex.def)             Requested size: 374.8997pt x 269.20508pt.
- [1 <./Layout.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+ [5]
+<"designOverview".png, id=19, 1588.93625pt x 1224.575pt>
+File: "designOverview".png Graphic file (type png)
+<use "designOverview".png>
+Package pdftex.def Info: "designOverview".png  used on input line 186.
+(pdftex.def)             Requested size: 1588.93239pt x 1224.57202pt.
+ [1 <./designOverview.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+[5]
+Overfull \hbox (9.11447pt too wide) in paragraph at lines 341--343
+[]\T1/ptm/m/n/12 IEEE 802.15.3e-2017 - IEEE Stan-dard for High Data Rate Wire-l
+ess Multi-Media Networks--Amendment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+<"systemDiagram".png, id=41, 513.117pt x 342.37912pt>
+File: "systemDiagram".png Graphic file (type png)
+<use "systemDiagram".png>
+Package pdftex.def Info: "systemDiagram".png  used on input line 400.
+(pdftex.def)             Requested size: 513.11575pt x 342.37828pt.
+<"camera".png, id=42, 1003.75pt x 1003.75pt>
+File: "camera".png Graphic file (type png)
+<use "camera".png>
+Package pdftex.def Info: "camera".png  used on input line 412.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+[7 <./systemDiagram.png>]
+<"de1".png, id=48, 784.9325pt x 646.415pt>
+File: "de1".png Graphic file (type png)
+<use "de1".png>
+Package pdftex.def Info: "de1".png  used on input line 422.
+(pdftex.def)             Requested size: 784.93057pt x 646.41342pt.
+ [8 <./camera.png>]
+<"rasp".png, id=54, 1576.89125pt x 1084.05pt>
+File: "rasp".png Graphic file (type png)
+<use "rasp".png>
+Package pdftex.def Info: "rasp".png  used on input line 434.
+(pdftex.def)             Requested size: 1576.88742pt x 1084.04736pt.
+ [9 <./de1.png> <./rasp.png>]
+<"sm".png, id=60, 1003.75pt x 1003.75pt>
+File: "sm".png Graphic file (type png)
+<use "sm".png>
+Package pdftex.def Info: "sm".png  used on input line 444.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+<"smdata".png, id=61, 513.92pt x 201.75375pt>
+File: "smdata".png Graphic file (type png)
+<use "smdata".png>
+Package pdftex.def Info: "smdata".png  used on input line 451.
+(pdftex.def)             Requested size: 513.91873pt x 201.75325pt.
+
+[10 <./sm.png> <./smdata.png>]
+<"smD".png, id=66, 1003.75pt x 1003.75pt>
+File: "smD".png Graphic file (type png)
+<use "smD".png>
+Package pdftex.def Info: "smD".png  used on input line 462.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+<"smDD".png, id=67, 738.76pt x 190.7125pt>
+File: "smDD".png Graphic file (type png)
+<use "smDD".png>
+Package pdftex.def Info: "smDD".png  used on input line 470.
+(pdftex.def)             Requested size: 738.75818pt x 190.71202pt.
+<"smDD2".png, id=68, 737.75626pt x 420.57124pt>
+File: "smDD2".png Graphic file (type png)
+<use "smDD2".png>
+Package pdftex.def Info: "smDD2".png  used on input line 478.
+(pdftex.def)             Requested size: 737.75446pt x 420.57022pt.
+ [11 <./smD.png> <./smDD.png>]
+<"Wcon".png, id=74, 1003.75pt x 1003.75pt>
+File: "Wcon".png Graphic file (type png)
+<use "Wcon".png>
+Package pdftex.def Info: "Wcon".png  used on input line 491.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+<"usb".png, id=75, 513.92pt x 121.45375pt>
+File: "usb".png Graphic file (type png)
+<use "usb".png>
+Package pdftex.def Info: "usb".png  used on input line 499.
+(pdftex.def)             Requested size: 513.91873pt x 121.45343pt.
+ [12 <./smDD2.png> <./Wcon.png>]
+<"PCB".png, id=81, 395.67825pt x 233.52243pt>
+File: "PCB".png Graphic file (type png)
+<use "PCB".png>
+Package pdftex.def Info: "PCB".png  used on input line 511.
+(pdftex.def)             Requested size: 395.67728pt x 233.52185pt.
+<"charger".png, id=82, 1204.5pt x 1204.5pt>
+File: "charger".png Graphic file (type png)
+<use "charger".png>
+Package pdftex.def Info: "charger".png  used on input line 523.
+(pdftex.def)             Requested size: 1204.49707pt x 1204.49707pt.
+ [13 <./usb.png> <./PCB.png>]
+<"LM".png, id=87, 1156.32pt x 520.94624pt>
+File: "LM".png Graphic file (type png)
+<use "LM".png>
+Package pdftex.def Info: "LM".png  used on input line 535.
+(pdftex.def)             Requested size: 1156.31718pt x 520.94498pt.
+<"smM".png, id=88, 451.6875pt x 339.2675pt>
+File: "smM".png Graphic file (type png)
+<use "smM".png>
+Package pdftex.def Info: "smM".png  used on input line 546.
+(pdftex.def)             Requested size: 451.68639pt x 339.26666pt.
+ [14 <./charger.png> <./LM.png>]
+<"teeth".jpg, id=95, 513.92pt x 513.92pt>
+File: "teeth".jpg Graphic file (type jpg)
+<use "teeth".jpg>
+Package pdftex.def Info: "teeth".jpg  used on input line 557.
+(pdftex.def)             Requested size: 513.91873pt x 513.91873pt.
+<"pulley".jpg, id=96, 343.2825pt x 343.2825pt>
+File: "pulley".jpg Graphic file (type jpg)
+<use "pulley".jpg>
+Package pdftex.def Info: "pulley".jpg  used on input line 565.
+(pdftex.def)             Requested size: 343.28165pt x 343.28165pt.
+
+[15 <./smM.png> <./teeth.jpg>]
+<"prot".png, id=101, 695.59875pt x 613.29124pt>
+File: "prot".png Graphic file (type png)
+<use "prot".png>
+Package pdftex.def Info: "prot".png  used on input line 577.
+(pdftex.def)             Requested size: 695.59706pt x 613.28973pt.
+ [16 <./pulley.jpg> <./prot.png>]
+<"p1".png, id=106, 1003.75pt x 1003.75pt>
+File: "p1".png Graphic file (type png)
+<use "p1".png>
+Package pdftex.def Info: "p1".png  used on input line 589.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+<"p2".png, id=107, 1003.75pt x 1003.75pt>
+File: "p2".png Graphic file (type png)
+<use "p2".png>
+Package pdftex.def Info: "p2".png  used on input line 597.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+<"p3".png, id=108, 1003.75pt x 1003.75pt>
+File: "p3".png Graphic file (type png)
+<use "p3".png>
+Package pdftex.def Info: "p3".png  used on input line 605.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ [17 <./p1.png> <./p2.png>]
+<"p4".png, id=114, 1003.75pt x 1003.75pt>
+File: "p4".png Graphic file (type png)
+<use "p4".png>
+Package pdftex.def Info: "p4".png  used on input line 613.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+<"sf1".png, id=115, 513.92pt x 430.60875pt>
+File: "sf1".png Graphic file (type png)
+<use "sf1".png>
+Package pdftex.def Info: "sf1".png  used on input line 625.
+(pdftex.def)             Requested size: 513.91873pt x 430.60768pt.
+ [18 <./p3.png> <./p4.png>]
+<"sf2".png, id=121, 763.85374pt x 772.8875pt>
+File: "sf2".png Graphic file (type png)
+<use "sf2".png>
+Package pdftex.def Info: "sf2".png  used on input line 633.
+(pdftex.def)             Requested size: 763.85187pt x 772.8856pt.
+ [19 <./sf1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
 
-Overfull \hbox (10.0393pt too wide) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 649--649
+
+ []
+
+[20 <./sf2.png (PNG copy)>]
+Overfull \hbox (37.63968pt too wide) in paragraph at lines 675--751
+ [][] 
+ []
+
+[21]
+Overfull \hbox (39.99149pt too wide) in paragraph at lines 758--798
+ [][] 
+ []
+
+[22]
+<"test".png, id=135, 1074.0125pt x 1393.205pt>
+File: "test".png Graphic file (type png)
+<use "test".png>
+Package pdftex.def Info: "test".png  used on input line 808.
+(pdftex.def)             Requested size: 1074.00987pt x 1393.20161pt.
+ [23]
+<"test2".png, id=139, 1047.915pt x 1393.205pt>
+File: "test2".png Graphic file (type png)
+<use "test2".png>
+Package pdftex.def Info: "test2".png  used on input line 815.
+(pdftex.def)             Requested size: 1047.91243pt x 1393.20161pt.
+ [24 <./test.png (PNG copy)>]
+Overfull \vbox (15.09142pt too high) has occurred while \output is active []
+
+
+[25 <./test2.png (PNG copy)>]
+<"GANTT chart 186A 1".png, id=146, 1606.0pt x 1241.63875pt>
+File: "GANTT chart 186A 1".png Graphic file (type png)
+<use "GANTT chart 186A 1".png>
+Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 826.
+(pdftex.def)             Requested size: 1605.99611pt x 1241.63573pt.
+<"GANTT chart 186B".png, id=147, 1606.0pt x 1241.63875pt>
+File: "GANTT chart 186B".png Graphic file (type png)
+<use "GANTT chart 186B".png>
+Package pdftex.def Info: "GANTT chart 186B".png  used on input line 833.
+(pdftex.def)             Requested size: 1605.99611pt x 1241.63573pt.
+ [26 <./GANTT chart 186A 1.png>]
+Overfull \hbox (8.57742pt too wide) in paragraph at lines 844--879
+ [][] 
+ []
+
+[27 <./GANTT chart 186B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 904--905
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--906
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
+
+ []
+
+
+Overfull \hbox (10.0393pt too wide) in paragraph at lines 918--919
 []\T1/ptm/m/n/12 Strengths: elec-tri-cal sys-tems, cir-cuitry de-sign, prob-lem
  solv-ing, power sys-tems, pub-lic speak-ing/relations 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 919--920
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 924--925
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-
- []
-
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 925--926
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 927--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
 
  []
 
-<"System block diagram".png, id=38, 382.12762pt x 294.04857pt>
-File: "System block diagram".png Graphic file (type png)
-<use "System block diagram".png>
-Package pdftex.def Info: "System block diagram".png  used on input line 312.
-(pdftex.def)             Requested size: 382.12668pt x 294.04785pt.
-<"Smart Eraser Diagrams".png, id=39, 612.93994pt x 512.21362pt>
-File: "Smart Eraser Diagrams".png Graphic file (type png)
-<use "Smart Eraser Diagrams".png>
-Package pdftex.def Info: "Smart Eraser Diagrams".png  used on input line 321.
-(pdftex.def)             Requested size: 612.93843pt x 512.21237pt.
-[7 <./System block diagram.png>]
-<"GPIO".png, id=43, 367.3725pt x 456.70625pt>
-File: "GPIO".png Graphic file (type png)
-<use "GPIO".png>
-Package pdftex.def Info: "GPIO".png  used on input line 328.
-(pdftex.def)             Requested size: 367.37158pt x 456.70512pt.
- [8 <./Smart Eraser Diagrams.png>]
-<"Ethernet".png, id=47, 741.972pt x 371.4678pt>
-File: "Ethernet".png Graphic file (type png)
-<use "Ethernet".png>
-Package pdftex.def Info: "Ethernet".png  used on input line 335.
-(pdftex.def)             Requested size: 741.97018pt x 371.46689pt.
-<"stepper motor".png, id=48, 630.55576pt x 445.06274pt>
-File: "stepper motor".png Graphic file (type png)
-<use "stepper motor".png>
-Package pdftex.def Info: "stepper motor".png  used on input line 342.
-(pdftex.def)             Requested size: 630.55421pt x 445.06165pt.
- [9 <./GPIO.png> <./Ethernet.png>]
-<"Stepper motor driver".png, id=54, 453.49425pt x 356.532pt>
-File: "Stepper motor driver".png Graphic file (type png)
-<use "Stepper motor driver".png>
-Package pdftex.def Info: "Stepper motor driver".png  used on input line 349.
-(pdftex.def)             Requested size: 453.49313pt x 356.53111pt.
- [10 <./stepper motor.png>]
-<"stepper motor driver set current".png, id=59, 448.67625pt x 151.767pt>
-File: "stepper motor driver set current".png Graphic file (type png)
-<use "stepper motor driver set current".png>
-Package pdftex.def Info: "stepper motor driver set current".png  used on input 
-line 356.
-(pdftex.def)             Requested size: 448.67516pt x 151.76662pt.
- [11 <./Stepper motor driver.png> <./stepper motor driver set current.png>]
-Overfull \hbox (32.39539pt too wide) in paragraph at lines 385--456
- [][] 
+[29] [30] (ProjectChater-Final.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+[]\T1/ptm/m/n/9 sv3c, ``WiFi Cam-era Out-door, SV3C Surveil-lance CCTV, 1080P H
+D Night Vi-sion Bul-let Cam-eras, Wa-ter-proof
  []
 
 
-Overfull \hbox (39.99149pt too wide) in paragraph at lines 463--502
- [][] 
- []
-
-[12]
-<"GANTT chart 186A 1".png, id=68, 754.4988pt x 452.77155pt>
-File: "GANTT chart 186A 1".png Graphic file (type png)
-<use "GANTT chart 186A 1".png>
-Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 510.
-(pdftex.def)             Requested size: 754.49695pt x 452.77043pt.
-<"GANTT chart 186B".png, id=69, 614.65636pt x 794.97pt>
-File: "GANTT chart 186B".png Graphic file (type png)
-<use "GANTT chart 186B".png>
-Package pdftex.def Info: "GANTT chart 186B".png  used on input line 517.
-(pdftex.def)             Requested size: 614.65486pt x 794.96806pt.
- [13 <./GANTT chart 186A 1.png>]
-Overfull \hbox (8.57742pt too wide) in paragraph at lines 528--563
- [][] 
- []
-
-[14 <./GANTT chart 186B.png>] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 593--594
-
+Underfull \hbox (badness 7081) in paragraph at lines 25--29
+\T1/ptm/m/n/9 Se-cu-rity Cam-era, IR LED Mo-tion De-tec-tion IP Cam-eras for In
+-door Out-door, Sup-port Max 128GB SD Card ,''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--595
-
+Underfull \hbox (badness 5446) in paragraph at lines 39--42
+[]\T1/ptm/m/n/9 STEPPERONLINE, ``Nema 23 CNC Step-per Mo-tor 2.8A 178.5oz.in/1.
+26Nm CNC Step-ping Mo-tor DIY CNC Mill,''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
-
+Overfull \hbox (29.91194pt too wide) in paragraph at lines 54--56
+[]\T1/ptm/m/n/9 A. Lim-ited, ``Pro-ce-dure Call Stan-dard for the ARM Ar-chi-te
+c-ture,'' http://infocenter.arm.com/help/topic/com.arm.doc.ihi0042f/IHI0042F_aa
+pcs.pdf. 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 596--597
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 598--599
-
- []
-
-[16] (ProjectChater-Final.bbl) [17] (ProjectChater-Final.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) [31] (ProjectChater-Final.aux) ) 
 Here is how much of TeX's memory you used:
- 5197 strings out of 493312
- 85340 string characters out of 3138899
- 162246 words of memory out of 3000000
- 8640 multiletter control sequences out of 15000+200000
+ 5318 strings out of 493312
+ 86356 string characters out of 3138899
+ 162427 words of memory out of 3000000
+ 8741 multiletter control sequences out of 15000+200000
  98704 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,9n,77p,1562b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on ProjectChater-Final.pdf (21 pages, 779697 bytes).
+ 37i,9n,77p,1508b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/
+base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on ProjectChater-Final.pdf (36 pages, 10919545 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

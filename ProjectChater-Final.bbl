@@ -21,16 +21,37 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{cam}
+sv3c, ``{WiFi Camera Outdoor, SV3C Surveillance CCTV, 1080P HD Night Vision
+  Bullet Cameras, Waterproof Security Camera, IR LED Motion Detection IP
+  Cameras for Indoor Outdoor, Support Max 128GB SD Card },''
+  https://www.amazon.com/dp/B07789DM4R/?coliid=I1G2VVNW6NF88L\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it.
+
 \bibitem{de1}
 Altera, ``{DE1\_SoC Reference Manual},''
   http://www.ee.ic.ac.uk/pcheung/teaching/ee2digital/DE1SoCUsermanual.pdf,.
 
-\bibitem{SM}
-Oyostepper, ``{23Hs22-2804S data sheet},''
-  https://www.oyostepper.com/images/upload/File/23HS22-2804S.pdf,.
+\bibitem{raspB}
+R.~Foundation, ``{Products Page },''
+  https://www.raspberrypi.org/products/raspberry-pi-3-model-b/.
 
-\bibitem{SMD}
-L.~Leadshine Technology~CO, ``{DM542 User Manual},''
-  http://robokits.download/datasheets/Leadshine%20DM542.pdf,.
+\bibitem{smR}
+STEPPERONLINE, ``{Nema 23 CNC Stepper Motor 2.8A 178.5oz.in/1.26Nm CNC Stepping
+  Motor DIY CNC Mill},''
+  https://www.amazon.com/dp/B00PNEPF5I/?coliid=I3APKEM9Y17HEP\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it.
+
+\bibitem{smdataR}
+------, ``{Stepper Motor},''
+  https://www.omc-stepperonline.com/download/23HS22-2804S.pdf.
+
+\bibitem{wifiStandards}
+I.~S. Association, ``{IEEE 802.15.3e-2017 - IEEE Standard for High Data Rate
+  Wireless Multi-Media Networks--Amendment 1: High-Rate Close Proximity
+  Point-to-Point Communications},''
+  https://standards.ieee.org/standard/802\_15\_3e-2017.html.
+
+\bibitem{armStandards}
+A.~Limited, ``{Procedure Call Standard for the ARM Architecture},''
+  http://infocenter.arm.com/help/topic/com.arm.doc.ihi0042f/IHI0042F\_aapcs.pdf.
 
 \end{thebibliography}
