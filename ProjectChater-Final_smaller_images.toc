@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-F}}Stepper Motor Drivers}{11}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-G}}Wireless Connections}{12}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-H}}PCB}{13}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-I}}Additional Power Source}{14}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-I}}Additional Power Source}{13}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-J}}Physical Mechanical Components}{14}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-K}}Stepper Motor Mounts}{15}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-L}}Pulley System}{15}
@@ -43,5 +43,5 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-C}}Juan Colin}{27}
 \contentsline {section}{\numberline {XIII}Stakeholder List}{27}
 \contentsline {section}{\numberline {XIV}Project Approval Requirements}{27}
-\contentsline {section}{\numberline {XV}Approvals}{28}
-\contentsline {section}{References}{29}
+\contentsline {section}{\numberline {XV}Approvals}{29}
+\contentsline {section}{References}{30}

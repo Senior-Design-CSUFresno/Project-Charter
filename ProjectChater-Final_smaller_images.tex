@@ -303,11 +303,10 @@ The Smart Eraser idea originated with the express purpose of making the lives of
  The purpose of the Smart Eraser is to allow class time to be utilized for learning. It will assist teachers who write lengthy, involved examples on a whiteboard while lecturing, by erasing the board in between examples while the teacher continues to lecture. This will allow students to learn in an environment with less interruptions and distractions from the material being taught, which will result in improved overall focus and retention of the information.  
  \par
 \setlength{\parindent}{2.5ex}The Smart Eraser is an automatic whiteboard eraser. The main deliverable of  this project will be an eraser which can move left-to-right on a track, and up-and-down on another motion system attached to the track. This system will be able to detect where markings are on a whiteboard through the use of a camera and an image-processing program. The camera will be mounted across from the whiteboard, and will send the image of the whiteboard to a microcontroller which will process the image, detect where the markings are, and find the quickest path to erase all of these markings via an algorithm. Once the quickest path is found, their locations will be converted to a coordinate system that the mechanical aspects of the eraser will be able to read. This coordinate system will essentially convert the locations of the markings into rotations of the stepper motors attached to the tracks, allowing the eraser to move. Finally, the eraser will be sent to its stand-by position once all of the markings have been erased. The eraser will also be able to detect an obstruction in front of the whiteboard, specifically the presence of a person, through the use of a body heat sensor. This will check if there is a person moving in front of the whiteboard, and if there is, the result would be an immediate termination of the process the Smart Eraser was carrying out in order to ensure the safety of those around the Smart Eraser while it is operating.
- \par
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.85]{"designOverview".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.93]{"designOverview".png}}
 	\caption{Design overview of the final product}
 	\label{fig:rough}
 \end{figure}
@@ -535,7 +534,7 @@ The Smart Eraser system's interconnected technology is shown in the following bl
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.60]{"systemDiagram".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=1]{"systemDiagram".png}}
 	\caption{Block diagram of main system components}
 	\label{fig:bd1}
 \end{figure}
@@ -547,7 +546,7 @@ The camera will be the input that drives the functionality of the rest of the sy
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.45]{"camera".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.20]{"camera".png}}
 	\caption{WiFi sv3c camera that will be used for capturing the image to be processed\cite{cam} }
 	\label{fig:cam}
 \end{figure}
@@ -557,7 +556,7 @@ Due to the processing capabilities that the Smart Eraser needs to be able to han
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"de1".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.90]{"de1".png}}
 	\caption{A detailed block diagram of the components 
 		contained on the DE1\_SoC\cite{de1} }
 	\label{fig:de1}
@@ -586,7 +585,7 @@ The stepper motors will allow the eraser to move along the track and linear moti
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.85]{"smdata".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.95]{"smdata".png}}
 	\caption{Table showing relevant information on the NEMA 23 stepper motor\cite{smdataR}}
 	\label{fig:smd}
 \end{figure}
@@ -597,7 +596,7 @@ The table in Figure 9 shows the correct parameters for the drivers that need to 
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.55]{"smD".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.50]{"smD".png}}
 	\caption{Image of the stepper motor driver and its connectors for the motor\cite{smdataR}}
 	\label{fig:smD}
 \end{figure}
@@ -625,7 +624,7 @@ There will be two types of wireless connectors that will allow for a wireless co
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.35]{"Wcon".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.50]{"Wcon".png}}
 	\caption{ The Kuman Antenna wireless transceiver to be connected to the stepper motor's PCB
 		\cite{kuman}}
 	\label{fig:Wcon}
@@ -657,7 +656,7 @@ The chosen stepper motor drivers can handle a voltage input ranging from 20 - 50
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.35]{"charger".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.40]{"charger".png}}
 	\caption{ The batteries in their recharging station that will be used to power the stepper motors and their drivers.
 		\cite{ebl}}
 	\label{fig:charger}
@@ -669,7 +668,7 @@ The Model 115RC linear motion track system will allow the eraser to move in the 
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.90]{"LM".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=1]{"LM".png}}
 	\caption{ Specific dimensions and placement of holes in the Model 115RC Linear Motion Track System, as well as the Cassette carriage that will be used for mounting
 		\cite{accuride}}
 	\label{fig:LM}
@@ -680,7 +679,7 @@ The NEMA 23 stepper motor steel mounting brackets will be used to actually mount
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"smM".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.50]{"smM".png}}
 	\caption{  Mounts that will be used to place the stepper motors on the system
 		\cite{hobby}}
 	\label{fig:smM}
@@ -691,7 +690,7 @@ The NEMA 23 stepper motor steel mounting brackets will be used to actually mount
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.35]{"teeth".jpg}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"teeth".jpg}}
 	\caption{  The GT2 40-teeth 6.35 mm bore timing belt pulley flange synchronous wheel
 		\cite{uxcell}}
 	\label{fig:teeth}
@@ -699,7 +698,7 @@ The NEMA 23 stepper motor steel mounting brackets will be used to actually mount
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.55]{"pulley".jpg}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.75]{"pulley".jpg}}
 	\caption{  A close up view of the 5 meter long, 6mm wide GT2 timing belt. This belt is black to show detail, but the belt that will actually be used in the project will be white.
 		\cite{merc}}
 	\label{fig:pulley}
@@ -711,7 +710,7 @@ The following figure shows a rough view of what the final prototype will look li
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"prot".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.80]{"prot".png}}
 	\caption{  The mobile prototype that the Smart Eraser will be mounted to
 		\cite{hd1}}
 	\label{fig:prot}
@@ -759,7 +758,7 @@ The following images are estimated flowcharts of how the code that they represen
 
 \begin{figure}[H]
 	\centering
-	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.99]{"sf1".png}}
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=1]{"sf1".png}}
 	\caption{ Flowchart of how the push buttons will function on the DE1\_SoC
 		\cite{smdataR}}
 	\label{fig:sf1}
@@ -1125,6 +1124,8 @@ Has experience in working with embedded systems and developing code for differen
  			\item Create a 3-4 minute video, including a business plan with some marketing information.
  		\end{itemize}
  \end{itemize}
+
+\newpage
 
 \section{Approvals}
 \setlength{\parindent}{15ex}
