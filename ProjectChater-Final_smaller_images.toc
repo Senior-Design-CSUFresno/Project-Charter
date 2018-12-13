@@ -35,13 +35,13 @@
 \contentsline {section}{\numberline {VII}High-Level Risks}{20}
 \contentsline {section}{\numberline {VIII}Milestone Schedule}{20}
 \contentsline {section}{\numberline {IX}Test Plan}{21}
-\contentsline {section}{\numberline {X}Gantt Charts}{24}
-\contentsline {section}{\numberline {XI}Equipment and Budget}{25}
+\contentsline {section}{\numberline {X}Gantt Charts}{23}
+\contentsline {section}{\numberline {XI}Equipment and Budget}{24}
 \contentsline {section}{\numberline {XII}Roles of Team Members}{26}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-A}}Heather Libecki}{26}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-B}}Chris Quesada}{26}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-C}}Juan Colin}{27}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-C}}Juan Colin}{26}
 \contentsline {section}{\numberline {XIII}Stakeholder List}{27}
 \contentsline {section}{\numberline {XIV}Project Approval Requirements}{27}
-\contentsline {section}{\numberline {XV}Approvals}{29}
-\contentsline {section}{References}{30}
+\contentsline {section}{\numberline {XV}Approvals}{28}
+\contentsline {section}{References}{29}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  12 DEC 2018 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  12 DEC 2018 19:03
 entering extended mode
 **./ProjectChater-Final_smaller_images.tex
 (ProjectChater-Final_smaller_images.tex
@@ -644,33 +644,30 @@ Overfull \hbox (39.99149pt too wide) in paragraph at lines 902--942
  [][] 
  []
 
-<"test".png, id=135, 1074.0125pt x 1393.205pt>
+<"test".png, id=135, 550.30594pt x 662.475pt>
 File: "test".png Graphic file (type png)
 <use "test".png>
 Package pdftex.def Info: "test".png  used on input line 952.
-(pdftex.def)             Requested size: 1074.00987pt x 1393.20161pt.
+(pdftex.def)             Requested size: 550.3046pt x 662.47339pt.
 [21]
-<"test2".png, id=139, 1047.915pt x 1393.205pt>
+<"test2".png, id=139, 550.30594pt x 625.58719pt>
 File: "test2".png Graphic file (type png)
 <use "test2".png>
 Package pdftex.def Info: "test2".png  used on input line 959.
-(pdftex.def)             Requested size: 1047.91243pt x 1393.20161pt.
- [22 <./test.png (PNG copy)>]
-Overfull \vbox (15.09142pt too high) has occurred while \output is active []
-
-
-[23 <./test2.png (PNG copy)>]
-<"GANTT chart 186A 1".png, id=146, 1191.7022pt x 702.37407pt>
+(pdftex.def)             Requested size: 550.3046pt x 625.58566pt.
+ [22 <./test.png>]
+<"GANTT chart 186A 1".png, id=144, 1003.49907pt x 578.91281pt>
 File: "GANTT chart 186A 1".png Graphic file (type png)
 <use "GANTT chart 186A 1".png>
 Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 970.
-(pdftex.def)             Requested size: 1191.69928pt x 702.37236pt.
-<"GANTT chart 186B".png, id=147, 1146.53343pt x 515.67656pt>
+(pdftex.def)             Requested size: 1003.49661pt x 578.91139pt.
+ [23 <./test2.png>]
+<"GANTT chart 186B".png, id=149, 1291.07344pt x 542.025pt>
 File: "GANTT chart 186B".png Graphic file (type png)
 <use "GANTT chart 186B".png>
 Package pdftex.def Info: "GANTT chart 186B".png  used on input line 977.
-(pdftex.def)             Requested size: 1146.53064pt x 515.6753pt.
- [24 <./GANTT chart 186A 1.png> <./GANTT chart 186B.png>] [25] [26]
+(pdftex.def)             Requested size: 1291.07031pt x 542.02367pt.
+ [24 <./GANTT chart 186A 1.png> <./GANTT chart 186B.png>] [25]
 Overfull \hbox (10.0393pt too wide) in paragraph at lines 1091--1092
 []\T1/ptm/m/n/12 Strengths: elec-tri-cal sys-tems, cir-cuitry de-sign, prob-lem
  solv-ing, power sys-tems, pub-lic speak-ing/relations 
@@ -686,7 +683,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
 
  []
 
-
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
 
  []
@@ -706,12 +703,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
-
- []
-
-[27] [28] [29] (ProjectChater-Final_smaller_images.bbl
+[27] [28] (ProjectChater-Final_smaller_images.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
 []\T1/ptm/m/n/9 sv3c, ``WiFi Cam-era Out-door, SV3C Surveil-lance CCTV, 1080P H
 D Night Vi-sion Bul-let Cam-eras, Wa-ter-proof
@@ -784,7 +776,7 @@ Overfull \hbox (2.09296pt too wide) in paragraph at lines 139--141
 g/content/dam/ieee-org/ieee/web/org/conferences/style_references_manual.pdf. 
  []
 
-) [30] (ProjectChater-Final_smaller_images.aux)
+) [29] (ProjectChater-Final_smaller_images.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -802,10 +794,10 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectChater-Final_smaller_images.pdf (36 pages, 10479861 by
-tes).
+Output written on ProjectChater-Final_smaller_images.pdf (35 pages, 9509341 byt
+es).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
+ 189 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
