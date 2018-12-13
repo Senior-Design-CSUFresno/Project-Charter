@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {III}High-Level Requirements}{4}
 \contentsline {section}{\numberline {IV}Assumptions, Constraints, and Standards}{4}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Data Storage}{5}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Translate Detected Markings into Coordinate System (stepper motor rotations)}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Translate Detected Markings into Coordinate System (Stepper Motor Rotations)}{5}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Stepper Motor System Design}{5}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Microcontroller Involvement}{5}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-E}}Shortest Path Algorithm}{6}
@@ -19,28 +19,29 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-A}}Fully Connected System}{8}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-B}}Camera}{8}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-C}}DE1\_SoC Development Board}{9}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-D}}Raspberry Pi 3 B}{10}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-D}}Raspberry Pi 3 Model B}{10}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-E}}Stepper Motors}{11}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-F}}Stepper Motor Drivers}{11}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-G}}Wireless Connections}{13}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-H}}PCB}{14}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-I}}Physical Mechanical Components}{15}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-J}}Stepper Motor Mounts}{15}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-K}}Pulley System}{16}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-L}}Prototype Mounting Components}{17}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-M}}Software Flowcharts}{19}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-N}}Boundaries}{21}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-O}}Technical Advisor Background}{22}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-I}}Additional Power Source}{14}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-J}}Physical Mechanical Components}{15}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-K}}Stepper Motor Mounts}{15}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-L}}Pulley System}{16}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-M}}Prototype Mounting Components}{17}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-N}}Software Flowcharts}{19}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-O}}Boundaries}{21}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-P}}Technical Advisor Background}{22}
 \contentsline {section}{\numberline {VII}High-Level Risks}{22}
 \contentsline {section}{\numberline {VIII}Milestone Schedule}{22}
-\contentsline {section}{\numberline {IX}Test Plan}{24}
-\contentsline {section}{\numberline {X}Gantt Charts}{27}
-\contentsline {section}{\numberline {XI}Equipment and Budget}{28}
-\contentsline {section}{\numberline {XII}Roles of Team Members}{30}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-A}}Heather Libecki}{30}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-B}}Chris Quesada}{30}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-C}}Juan Colin}{30}
-\contentsline {section}{\numberline {XIII}Stakeholder List}{31}
-\contentsline {section}{\numberline {XIV}Project Approval Requirements}{31}
-\contentsline {section}{\numberline {XV}Approvals}{31}
-\contentsline {section}{References}{33}
+\contentsline {section}{\numberline {IX}Test Plan}{23}
+\contentsline {section}{\numberline {X}Gantt Charts}{26}
+\contentsline {section}{\numberline {XI}Equipment and Budget}{27}
+\contentsline {section}{\numberline {XII}Roles of Team Members}{28}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-A}}Heather Libecki}{28}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-B}}Chris Quesada}{28}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {XII-C}}Juan Colin}{29}
+\contentsline {section}{\numberline {XIII}Stakeholder List}{29}
+\contentsline {section}{\numberline {XIV}Project Approval Requirements}{29}
+\contentsline {section}{\numberline {XV}Approvals}{30}
+\contentsline {section}{References}{31}
