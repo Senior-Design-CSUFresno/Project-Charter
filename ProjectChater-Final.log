@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  12 DEC 2018 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  12 DEC 2018 18:20
 entering extended mode
 **./ProjectChater-Final.tex
 (ProjectChater-Final.tex
@@ -398,7 +398,7 @@ G,.JBIG2,.JB2,.eps]
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- [1{C:/Users/pumpe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+ [1{C:/Users/thees/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 242.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -424,12 +424,12 @@ Overfull \hbox (30.46408pt too wide) in paragraph at lines 242--285
 \openout5 = `ProjectChater-Final.lot'.
 
  [6]
-<"designOverview".png, id=22, 1588.93625pt x 1224.575pt>
+<"designOverview".png, id=22, 752.0898pt x 580.8099pt>
 File: "designOverview".png Graphic file (type png)
 <use "designOverview".png>
 Package pdftex.def Info: "designOverview".png  used on input line 310.
-(pdftex.def)             Requested size: 1588.93239pt x 1224.57202pt.
- [1 <./designOverview.png (PNG copy)>]
+(pdftex.def)             Requested size: 752.08795pt x 580.80849pt.
+ [1 <./designOverview.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
@@ -485,25 +485,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--528
 
  []
 
-<"systemDiagram".png, id=44, 513.117pt x 342.37912pt>
+<"systemDiagram".png, id=45, 590.4459pt x 383.9946pt>
 File: "systemDiagram".png Graphic file (type png)
 <use "systemDiagram".png>
 Package pdftex.def Info: "systemDiagram".png  used on input line 538.
-(pdftex.def)             Requested size: 513.11575pt x 342.37828pt.
+(pdftex.def)             Requested size: 590.44446pt x 383.99365pt.
 [7]
-<"camera".png, id=49, 1003.75pt x 1003.75pt>
+<"camera".png, id=50, 1003.75pt x 1003.75pt>
 File: "camera".png Graphic file (type png)
 <use "camera".png>
 Package pdftex.def Info: "camera".png  used on input line 550.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  [8 <./systemDiagram.png>]
-<"de1".png, id=55, 784.9325pt x 646.415pt>
+<"de1".png, id=56, 1003.75pt x 856.19875pt>
 File: "de1".png Graphic file (type png)
 <use "de1".png>
 Package pdftex.def Info: "de1".png  used on input line 560.
-(pdftex.def)             Requested size: 784.93057pt x 646.41342pt.
+(pdftex.def)             Requested size: 1003.74756pt x 856.19666pt.
  [9 <./camera.png>]
-<"rasp".png, id=60, 1576.89125pt x 1084.05pt>
+<"rasp".png, id=61, 1576.89125pt x 1084.05pt>
 File: "rasp".png Graphic file (type png)
 <use "rasp".png>
 Package pdftex.def Info: "rasp".png  used on input line 572.
@@ -514,11 +514,11 @@ File: "sm".png Graphic file (type png)
 <use "sm".png>
 Package pdftex.def Info: "sm".png  used on input line 582.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"smdata".png, id=67, 513.92pt x 201.75375pt>
+<"smdata".png, id=67, 913.91437pt x 344.03531pt>
 File: "smdata".png Graphic file (type png)
 <use "smdata".png>
 Package pdftex.def Info: "smdata".png  used on input line 589.
-(pdftex.def)             Requested size: 513.91873pt x 201.75325pt.
+(pdftex.def)             Requested size: 913.91212pt x 344.03447pt.
 
 [11 <./sm.png> <./smdata.png>]
 <"smD".png, id=73, 1003.75pt x 1003.75pt>
@@ -537,90 +537,88 @@ File: "smDD2".png Graphic file (type png)
 Package pdftex.def Info: "smDD2".png  used on input line 615.
 (pdftex.def)             Requested size: 737.75446pt x 420.57022pt.
  [12 <./smD.png> <./smDD.png>]
-<"Wcon".png, id=81, 1003.75pt x 1003.75pt>
+<"Wcon".png, id=81, 620.3175pt x 239.39438pt>
 File: "Wcon".png Graphic file (type png)
 <use "Wcon".png>
 Package pdftex.def Info: "Wcon".png  used on input line 628.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"usb".png, id=82, 513.92pt x 121.45375pt>
+(pdftex.def)             Requested size: 620.316pt x 239.39378pt.
+<"usb".png, id=82, 64.74188pt x 90.3375pt>
 File: "usb".png Graphic file (type png)
 <use "usb".png>
 Package pdftex.def Info: "usb".png  used on input line 636.
-(pdftex.def)             Requested size: 513.91873pt x 121.45343pt.
- [13 <./smDD2.png> <./Wcon.png>]
-<"PCB".png, id=89, 395.67825pt x 233.52243pt>
+(pdftex.def)             Requested size: 64.74171pt x 90.33727pt.
+ [13 <./smDD2.png> <./Wcon.png> <./usb.png>]
+<"PCB".png, id=90, 518.1759pt x 305.7021pt>
 File: "PCB".png Graphic file (type png)
 <use "PCB".png>
 Package pdftex.def Info: "PCB".png  used on input line 648.
-(pdftex.def)             Requested size: 395.67728pt x 233.52185pt.
-<"charger".png, id=90, 1204.5pt x 1204.5pt>
+(pdftex.def)             Requested size: 518.17462pt x 305.70134pt.
+<"charger".png, id=91, 1204.5pt x 1204.5pt>
 File: "charger".png Graphic file (type png)
 <use "charger".png>
 Package pdftex.def Info: "charger".png  used on input line 660.
 (pdftex.def)             Requested size: 1204.49707pt x 1204.49707pt.
- [14 <./usb.png> <./PCB.png>]
-<"LM".png, id=95, 1156.32pt x 520.94624pt>
+ [14 <./PCB.png> <./charger.png>]
+<"LM".png, id=97, 1156.32pt x 520.94624pt>
 File: "LM".png Graphic file (type png)
 <use "LM".png>
 Package pdftex.def Info: "LM".png  used on input line 672.
 (pdftex.def)             Requested size: 1156.31718pt x 520.94498pt.
-<"smM".png, id=96, 451.6875pt x 339.2675pt>
+<"smM".png, id=98, 303.38344pt x 179.92218pt>
 File: "smM".png Graphic file (type png)
 <use "smM".png>
 Package pdftex.def Info: "smM".png  used on input line 683.
-(pdftex.def)             Requested size: 451.68639pt x 339.26666pt.
- [15 <./charger.png> <./LM.png>]
-<"teeth".jpg, id=102, 513.92pt x 513.92pt>
+(pdftex.def)             Requested size: 303.38269pt x 179.92174pt.
+<"teeth".jpg, id=99, 352.31625pt x 298.86656pt>
 File: "teeth".jpg Graphic file (type jpg)
 <use "teeth".jpg>
 Package pdftex.def Info: "teeth".jpg  used on input line 694.
-(pdftex.def)             Requested size: 513.91873pt x 513.91873pt.
-<"pulley".jpg, id=103, 343.2825pt x 343.2825pt>
+(pdftex.def)             Requested size: 352.31538pt x 298.86581pt.
+ [15 <./LM.png> <./smM.png>]
+<"pulley".jpg, id=105, 223.58531pt x 120.45pt>
 File: "pulley".jpg Graphic file (type jpg)
 <use "pulley".jpg>
 Package pdftex.def Info: "pulley".jpg  used on input line 702.
-(pdftex.def)             Requested size: 343.28165pt x 343.28165pt.
-
-[16 <./smM.png> <./teeth.jpg>]
-<"prot".png, id=108, 695.59875pt x 613.29124pt>
+(pdftex.def)             Requested size: 223.58475pt x 120.44969pt.
+<"prot".png, id=106, 862.1811pt x 684.8787pt>
 File: "prot".png Graphic file (type png)
 <use "prot".png>
 Package pdftex.def Info: "prot".png  used on input line 714.
-(pdftex.def)             Requested size: 695.59706pt x 613.28973pt.
- [17 <./pulley.jpg> <./prot.png>]
-<"p1".png, id=113, 1003.75pt x 1003.75pt>
+(pdftex.def)             Requested size: 862.179pt x 684.87701pt.
+ [16 <./teeth.jpg> <./pulley.jpg> <./prot.png>]
+<"p1".png, id=111, 1003.75pt x 1003.75pt>
 File: "p1".png Graphic file (type png)
 <use "p1".png>
 Package pdftex.def Info: "p1".png  used on input line 726.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"p2".png, id=114, 1003.75pt x 1003.75pt>
+<"p2".png, id=112, 1003.75pt x 1003.75pt>
 File: "p2".png Graphic file (type png)
 <use "p2".png>
 Package pdftex.def Info: "p2".png  used on input line 734.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"p3".png, id=115, 1003.75pt x 1003.75pt>
+<"p3".png, id=113, 1003.75pt x 1003.75pt>
 File: "p3".png Graphic file (type png)
 <use "p3".png>
 Package pdftex.def Info: "p3".png  used on input line 742.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- [18 <./p1.png> <./p2.png>]
-<"p4".png, id=121, 1003.75pt x 1003.75pt>
+ [17 <./p1.png> <./p2.png>]
+<"p4".png, id=119, 1003.75pt x 1003.75pt>
 File: "p4".png Graphic file (type png)
 <use "p4".png>
 Package pdftex.def Info: "p4".png  used on input line 750.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"sf1".png, id=122, 513.92pt x 430.60875pt>
+<"sf1".png, id=120, 558.4062pt x 488.3043pt>
 File: "sf1".png Graphic file (type png)
 <use "sf1".png>
 Package pdftex.def Info: "sf1".png  used on input line 762.
-(pdftex.def)             Requested size: 513.91873pt x 430.60768pt.
- [19 <./p3.png> <./p4.png>]
-<"sf2".png, id=129, 763.85374pt x 772.8875pt>
+(pdftex.def)             Requested size: 558.40483pt x 488.30312pt.
+ [18 <./p3.png> <./p4.png>]
+<"sf2".png, id=126, 763.85374pt x 772.8875pt>
 File: "sf2".png Graphic file (type png)
 <use "sf2".png>
 Package pdftex.def Info: "sf2".png  used on input line 770.
 (pdftex.def)             Requested size: 763.85187pt x 772.8856pt.
- [20 <./sf1.png>]
+ [19 <./sf1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 783--784
 
  []
@@ -630,7 +628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 786--786
 
  []
 
-[21 <./sf2.png (PNG copy)>]
+[20 <./sf2.png (PNG copy)>]
 Overfull \hbox (37.63968pt too wide) in paragraph at lines 812--856
  [][] 
  []
@@ -640,44 +638,41 @@ Overfull \hbox (32.39539pt too wide) in paragraph at lines 863--896
  [][] 
  []
 
-[22]
+[21]
 Overfull \hbox (39.99149pt too wide) in paragraph at lines 903--943
  [][] 
  []
 
-<"test".png, id=139, 1074.0125pt x 1393.205pt>
+<"test".png, id=138, 550.30594pt x 662.475pt>
 File: "test".png Graphic file (type png)
 <use "test".png>
 Package pdftex.def Info: "test".png  used on input line 953.
-(pdftex.def)             Requested size: 1074.00987pt x 1393.20161pt.
-[23]
-<"test2".png, id=143, 1047.915pt x 1393.205pt>
+(pdftex.def)             Requested size: 550.3046pt x 662.47339pt.
+[22]
+<"test2".png, id=142, 550.30594pt x 625.58719pt>
 File: "test2".png Graphic file (type png)
 <use "test2".png>
 Package pdftex.def Info: "test2".png  used on input line 960.
-(pdftex.def)             Requested size: 1047.91243pt x 1393.20161pt.
- [24 <./test.png (PNG copy)>]
-Overfull \vbox (15.09142pt too high) has occurred while \output is active []
-
-
-[25 <./test2.png (PNG copy)>]
-<"GANTT chart 186A 1".png, id=151, 1191.7022pt x 702.37407pt>
+(pdftex.def)             Requested size: 550.3046pt x 625.58566pt.
+ [23 <./test.png>]
+<"GANTT chart 186A 1".png, id=147, 1003.49907pt x 642.90187pt>
 File: "GANTT chart 186A 1".png Graphic file (type png)
 <use "GANTT chart 186A 1".png>
 Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 971.
-(pdftex.def)             Requested size: 1191.69928pt x 702.37236pt.
-<"GANTT chart 186B".png, id=152, 1146.53343pt x 515.67656pt>
+(pdftex.def)             Requested size: 1003.49661pt x 642.9003pt.
+ [24 <./test2.png>]
+<"GANTT chart 186B".png, id=152, 1291.82625pt x 608.2725pt>
 File: "GANTT chart 186B".png Graphic file (type png)
 <use "GANTT chart 186B".png>
 Package pdftex.def Info: "GANTT chart 186B".png  used on input line 978.
-(pdftex.def)             Requested size: 1146.53064pt x 515.6753pt.
- [26 <./GANTT chart 186A 1.png> <./GANTT chart 186B.png>] [27] [28]
+(pdftex.def)             Requested size: 1291.8231pt x 608.27103pt.
+ [25 <./GANTT chart 186A 1.png> <./GANTT chart 186B.png>] [26]
 Overfull \hbox (10.0393pt too wide) in paragraph at lines 1092--1093
 []\T1/ptm/m/n/12 Strengths: elec-tri-cal sys-tems, cir-cuitry de-sign, prob-lem
  solv-ing, power sys-tems, pub-lic speak-ing/relations 
  []
 
-
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
 
  []
@@ -712,7 +707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 
  []
 
-[29] [30] (ProjectChater-Final.bbl
+[28] [29] (ProjectChater-Final.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
 []\T1/ptm/m/n/9 sv3c, ``WiFi Cam-era Out-door, SV3C Surveil-lance CCTV, 1080P H
 D Night Vi-sion Bul-let Cam-eras, Wa-ter-proof
@@ -785,14 +780,14 @@ Overfull \hbox (2.09296pt too wide) in paragraph at lines 139--141
 g/content/dam/ieee-org/ieee/web/org/conferences/style_references_manual.pdf. 
  []
 
-) [31] (ProjectChater-Final.aux)
+) [30] (ProjectChater-Final.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  5338 strings out of 493312
- 86591 string characters out of 3138899
+ 86495 string characters out of 3138899
  159547 words of memory out of 3000000
  8761 multiletter control sequences out of 15000+200000
  98704 words of font info for 104 fonts, out of 3000000 for 9000
@@ -803,9 +798,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectChater-Final.pdf (37 pages, 10927639 bytes).
+Output written on ProjectChater-Final.pdf (36 pages, 9519293 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
+ 192 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
